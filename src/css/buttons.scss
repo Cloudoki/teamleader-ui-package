@@ -1,0 +1,23 @@
+.tl-btn {
+
+	border: none;
+	padding: 6px 28px;
+	color: $white;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 13px;
+
+	&.greened {
+		background-color: $green;
+	}
+
+	&.transparent {
+		background-color: transparent;
+		padding: 6px 20px;
+		color: $dark-grey;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+}

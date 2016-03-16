@@ -4,9 +4,12 @@ $main-color: #00aca9;
 $dark-blue: #2b3b4c;
 // $light-color: #8DB911;
 // $dark-color: #222A41;
-// $dark-grey: #2E2E2E;
-// $light-grey: #ddd;
+
+// Grey scale
+$dark-grey: #4e4e4e;
 $grey: #444F5C;
+$light-grey: #e9eae9;
+$lighter-grey: #f4f4f4;
 $white: #fff;
 
 // Functional
@@ -15,10 +18,14 @@ $green: #a3ce51;
 $orange: #f68d43;
 $red: #e8423b;
 
-/* Component colours */
-// $mail-body: #f1f1f1;
-
 // Fonts
 $font-regular: ProximaNovaRegular, Helvetica, sans-serif;
 $font-semibold: ProximaNovaSemibold, Helvetica, sans-serif;
 $font-bold: ProximaNovaBold, Helvetica, sans-serif;
+
+// Shadows
+$shadow: 0 0 5px 0 #d1d1d1;
+
+// Product specific settings (Deloitte for tests)
+$product-primary: #021d5b;
+$product-secondary: #9ad100;

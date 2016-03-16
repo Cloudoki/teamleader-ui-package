@@ -44,14 +44,10 @@ gulp.task('copy:fonts', function() {
     return gulp.src(dirs.source+'/fonts/*')
         .pipe(copy(dirs.release, {prefix: 1}));
 });
-gulp.task('copy:scripts', function() {
+gulp.task('copy:scripts', function () {
     return gulp.src([
-            /*  
-             * Add vendor scripts here
-             * 
-             * Example:
-             * dirs.source+'/vendor/jquery/dist/jquery.min.js', 
-             */
+            dirs.source+'/vendor/**/*.js',
+            dirs.source+'/js/**/*'
         ]).pipe(copy(dirs.release, {prefix: 1}));
 });
 
@@ -103,7 +99,7 @@ gulp.task('minify', function() {
 
 // Compile Sass
 gulp.task('sass', function() {
-    return gulp.src(dirs.source+'/css/main.scss')
+    return gulp.src([dirs.source+'/css/main.scss', dirs.source+'/css/vendors.scss'])
         .pipe(sass())
         .on('error', handleError)
         .pipe(gulp.dest(dirs.release+'/css'));

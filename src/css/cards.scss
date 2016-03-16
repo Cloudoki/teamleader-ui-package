@@ -1,3 +1,25 @@
 .tl-card {
 	background-color: #fff;
+	box-shadow: $shadow;
+	margin-bottom: 20px;
+
+	.tl-card-header,
+	.tl-card-footer,
+	.tl-card-body {
+		padding: 13px 19px;
+	}
+
+	.tl-card-header {
+		font-family: $font-bold;
+		border-bottom: 1px solid $light-grey;
+		line-height: 1.4em;
+	}
+
+	.tl-card-body {
+
+	}
+
+	.tl-card-footer {
+		background-color: $lighter-grey;
+	}
 }

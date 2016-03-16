@@ -40,6 +40,10 @@ gulp.task('copy:images', function() {
     return gulp.src(dirs.source+'/images/*')
         .pipe(copy(dirs.release, {prefix: 1}));
 });
+gulp.task('copy:fonts', function() {
+    return gulp.src(dirs.source+'/fonts/*')
+        .pipe(copy(dirs.release, {prefix: 1}));
+});
 gulp.task('copy:scripts', function() {
     return gulp.src([
             /*  
@@ -123,6 +127,6 @@ gulp.task('release', function(callback){
     runSequence('build', ['minify', 'lint:after'], callback);
 }); 
 gulp.task('build', function(callback){
-    runSequence('clean', ['copy:images', 'handlebars', 'copy:html', 'copy:scripts', 'sass', 'lint:before', 'concat'], callback);
+    runSequence('clean', ['copy:images', 'handlebars', 'copy:html', 'copy:fonts', 'copy:scripts', 'sass', 'lint:before', 'concat'], callback);
 }); 
 gulp.task('default', ['build', 'watch']);

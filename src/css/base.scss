@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	background-color: $light-grey;
 	font-family: $font-regular;
@@ -5,9 +9,30 @@ body {
 	padding: 0;
 	font-size: 14px;
 	color: $dark-grey;
+	min-height: 100%;
 }
 
 .content-container {
 	max-width: 900px;
 	margin: 0 auto;
+}
+
+.muted {
+	opacity: .5;
+}
+
+.small {
+	font-size: 11px;
+}
+
+a {
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+ul {
+	margin: 0;
+	padding: 0;
 }

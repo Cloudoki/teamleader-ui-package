@@ -16,10 +16,68 @@
 	}
 
 	.tl-card-body {
+		padding: 19px;
 
+		.subtitle {
+			// color: $dark-blue;
+			opacity: .7;
+			font-size: 12px;
+		}
 	}
 
 	.tl-card-footer {
 		background-color: $lighter-grey;
 	}
+
+	// Table
+	&.tl-table {
+
+		thead {
+			th {
+				padding: 15px 5px 0px 5px;
+				font-size: 13px;
+
+				span {
+					display: block;
+					font-family: $font-bold;
+					padding-bottom: 1px;
+					border-bottom: 2px solid #bababa;
+				}
+
+				&:first-child {
+					padding-left: 19px;
+				}
+
+				&:last-child {
+					padding-right: 19px;
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				td {
+					font-size: 12px;
+					padding: 11px 5px;
+					line-height: 1em;
+					border-bottom: 1px solid $light-grey;
+
+					&:first-child {
+						padding-left: 19px;
+					}
+
+					&:last-child {
+						padding-right: 19px;
+					}
+				}
+
+				&:last-child {
+					td {
+						padding-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
 }
+	

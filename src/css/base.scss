@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
-	color: $dark-grey;
+	color: $dark-blue;
 	min-height: 100%;
 }
 
@@ -22,6 +22,10 @@ body {
 }
 
 .small {
+	font-size: 12px;
+}
+
+.smaller {
 	font-size: 11px;
 }
 
@@ -35,4 +39,16 @@ a {
 ul {
 	margin: 0;
 	padding: 0;
+}
+
+table {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.text-redded {
+	color: $red;
 }

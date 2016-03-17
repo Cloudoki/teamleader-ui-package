@@ -1,0 +1,40 @@
+<div class="tl-card">
+	<div class="tl-card-header">
+		Pay with credit card
+	</div>
+	<div class="tl-card-body">
+		<div class="subtitle">Use your credit card to make your Teamleader payments automaticly. You can stop this account any time you want.</div>
+
+		<form class="form-horizontal">
+		  	<div class="form-group">
+		    	<label for="kaartnummer" class="col-xs-3 control-label">Kaartnummer</label>
+    			<div class="col-xs-9">
+      				<input type="text" class="form-control" placeholder="">
+    			</div>
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="vervaldatum" class="col-xs-3 control-label">Vervaldatum</label>
+    			<div class="col-xs-9">
+      				<div class="calendar-input">
+      					<input type="text" class="form-control month" placeholder="MM">
+      					<div class="split">/</div>
+      					<input type="text" class="form-control year" placeholder="YYYY">
+      				</div>
+      				<div class="pull-right text-right">
+      					<div class="form-group">
+      						<label for="cvc" class="col-xs-3 col-xs-offset-3 control-label">CVC</label>
+	      					<div class="col-xs-6">
+	      						<input type="text" class="form-control" placeholder="">
+	      					</div>
+      					</div>
+      				</div>
+    			</div>
+		  	</div>
+		</form>
+
+	</div>
+	<div class="tl-card-footer text-right">
+		{{> atoms/button text="back" classes="transparent"}}
+		{{> atoms/button text="save" classes="greened"}}
+	</div>
+</div>

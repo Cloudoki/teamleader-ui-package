@@ -10,6 +10,7 @@ body {
 	font-size: 14px;
 	color: $dark-blue;
 	min-height: 100%;
+	letter-spacing: 0.6px;
 }
 
 .content-container {
@@ -27,6 +28,8 @@ body {
 
 .smaller {
 	font-size: 11px;
+	line-height: 1.2em;
+	letter-spacing: 0.4px;
 }
 
 a {
@@ -51,4 +54,27 @@ img {
 
 .text-redded {
 	color: $red;
+}
+
+.text-primary {
+	color: $product-primary;
+}
+
+.text-secondary {
+	color: $product-secondary;
+}
+
+.primaryed {
+	background-color: $product-primary;
+}
+
+.secondaryed {
+	background-color: $product-secondary;
+}
+
+.user-avatar {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
 }

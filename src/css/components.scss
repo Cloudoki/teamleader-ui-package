@@ -32,6 +32,10 @@
 			.tl-header-right {
 				float: right;
 				text-align: right;
+
+				&.tl-user-card .user-name {
+					color: $dark-grey;
+				}
 			}
 		}
 
@@ -115,6 +119,51 @@
 			&:first-child {
 				margin-left: 0;
 			}
+		}
+	}
+}
+
+.tl-user-card {
+	position: relative;
+
+	.user-data {
+		padding-left: 64px;
+		padding-top: 3px;
+
+		.user-name {
+			letter-spacing: 0.6px;
+		}
+	}
+
+	.user-avatar {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	&.mini {
+		.user-data {
+			padding-left: 45px;
+			font-size: 13px;
+
+			.user-name {
+				line-height: 24px;
+			}
+		}
+		.user-avatar {
+			width: 28px;
+			height: 28px;
+		}
+	}
+
+	&.align-right {
+		.user-data {
+			padding-left: 0;
+			padding-right: 64px;
+		}
+		.user-avatar {
+			left: auto;
+			right: 0;
 		}
 	}
 }

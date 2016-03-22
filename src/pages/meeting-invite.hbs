@@ -1,9 +1,22 @@
 {{>_global/head}}
 {{> organisms/header}}
 
-<div class="content-container">
-	{{> molecules/card}}
-</div>
+<div class="tl-split-view">
+	<div class="tl-split-content">
+		<div class="tl-header">
+			<div class="tl-header-logo">
+				<img src="https://placehold.it/200x50">
+			</div>
+			{{> organisms/meeting-header-right}}
+		</div>
 
+		<div class="tl-split-body">
+			{{> organisms/meeting-start-balloon-card}}
+			{{> organisms/meeting-start-date-card}}
+			{{> organisms/meeting-start-attendees-card}}
+		</div>
+	</div>
+	<div class="tl-split-bg"></div>
+</div>
 
 {{>_global/foot}}

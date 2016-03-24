@@ -191,7 +191,8 @@ img {
   .tl-card .tl-card-header {
     font-family: ProximaNovaBold, Helvetica, sans-serif;
     border-bottom: 1px solid #e9eae9;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    color: #4e4e4e; }
   .tl-card .tl-card-body {
     padding: 19px; }
     .tl-card .tl-card-body .subtitle {

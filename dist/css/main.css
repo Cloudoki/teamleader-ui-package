@@ -88,15 +88,14 @@ img {
     height: 100%;
     overflow: hidden; }
   .tl-split-view .tl-split-content {
-    width: 600px;
+    width: 620px;
     float: right;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
     height: 100%;
     overflow: auto; }
     .tl-split-view .tl-split-content .tl-header {
       padding: 42px 30px;
-      background-color: #fff;
-      color: #00aca9; }
+      background-color: #fff; }
       .tl-split-view .tl-split-content .tl-header .tl-header-logo {
         display: inline-block; }
       .tl-split-view .tl-split-content .tl-header .tl-header-right {
@@ -105,7 +104,6 @@ img {
         .tl-split-view .tl-split-content .tl-header .tl-header-right.tl-user-card .user-name {
           color: #4e4e4e; }
     .tl-split-view .tl-split-content .tl-header-menu {
-      background-color: #00aca9;
       min-height: 28px; }
       .tl-split-view .tl-split-content .tl-header-menu ul.menu-items {
         list-style: none;
@@ -123,8 +121,6 @@ img {
             padding: 8px 15px; }
           .tl-split-view .tl-split-content .tl-header-menu ul.menu-items li:first-child {
             padding-left: 18px; }
-          .tl-split-view .tl-split-content .tl-header-menu ul.menu-items li.highlight {
-            background-color: #2b3b4c; }
           .tl-split-view .tl-split-content .tl-header-menu ul.menu-items li:hover a {
             opacity: 1; }
         .tl-split-view .tl-split-content .tl-header-menu ul.menu-items.right-menu {
@@ -223,7 +219,6 @@ img {
         text-transform: uppercase; }
         .tl-card .tl-card-body .tl-card-row.date .tl-card-row-day {
           font-family: ProximaNovaSemibold, Helvetica, sans-serif;
-          color: #2b3b4c;
           font-size: 12px;
           margin-left: 0; }
         .tl-card .tl-card-body .tl-card-row.date .tl-card-row-date, .tl-card .tl-card-body .tl-card-row.date .tl-card-row-time {
@@ -313,8 +308,6 @@ img {
   text-transform: uppercase;
   display: inline-block;
   font-size: 13px; }
-  .tl-btn.greened {
-    background-color: #2b3b4c; }
   .tl-btn.transparent {
     background-color: transparent;
     padding: 6px 20px;
@@ -369,7 +362,6 @@ label {
       left: 1px;
       bottom: 3px;
       content: "\2022";
-      color: #2b3b4c;
       font-size: 66px;
       text-align: center;
       line-height: 18px; }

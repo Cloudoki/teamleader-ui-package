@@ -14,7 +14,7 @@
 	}
 
 	.tl-split-content {
-		width: 600px;
+		width: 620px;
 		float: right;
 		box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
 		height: 100%;
@@ -23,7 +23,7 @@
 		.tl-header {
 			padding: 42px 30px;
 			background-color: $white;
-			color: $product-primary;
+			// color: $product-primary;
 
 			.tl-header-logo {
 				display: inline-block;
@@ -40,7 +40,7 @@
 		}
 
 		.tl-header-menu {
-			background-color: $product-primary;
+			// background-color: $product-primary;
 			min-height: 28px;
 
 			ul.menu-items {
@@ -65,9 +65,9 @@
 						padding-left: 18px;
 					}
 
-					&.highlight {
-						background-color: $product-secondary;
-					}
+					// &.highlight {
+					// 	background-color: $product-secondary;
+					// }
 
 					&:hover {
 						a {

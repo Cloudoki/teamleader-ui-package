@@ -1,8 +1,21 @@
 {{>_global/head}}
 {{> organisms/header}}
 
-<div class="content-container">
-	{{> molecules/card}}
+<div class="tl-split-view">
+	<div class="tl-split-content">
+		<div class="tl-header">
+			<div class="tl-header-logo">
+				<img src="https://placehold.it/200x50">
+			</div>
+			{{> molecules/header-right title="Factuur 2016 / 23" subtitle="Status: not paid"}}
+		</div>
+		{{> organisms/cloudsign-header-menu}}
+
+		<div class="tl-split-body">
+			{{> molecules/full-width-card}}
+		</div>
+	</div>
+	<div class="tl-split-bg"></div>
 </div>
 
 

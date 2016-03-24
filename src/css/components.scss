@@ -44,14 +44,11 @@
 			min-height: 28px;
 
 			ul.menu-items {
-				display: flex;
-			    flex-direction: row;
-			    flex-wrap: nowrap;
 				list-style: none;
+				display: inline-block;
 
 				li {
-					display: block;
-    				flex-grow: 1;
+					display: inline-block;
 					text-align: center;
 					font-size: 13px;
 					line-height: 13px;
@@ -61,15 +58,11 @@
 						color: $white;
 						display: block;
 						opacity: .7;
-						padding: 8px 0;
+						padding: 8px 15px;
 					}
 
 					&:first-child {
-						padding-left: 11px;
-					}
-
-					&:last-child {
-						padding-right: 6px;
+						padding-left: 18px;
 					}
 
 					&.highlight {
@@ -79,6 +72,19 @@
 					&:hover {
 						a {
 							opacity: 1;
+						}
+					}
+				}
+
+				&.right-menu {
+					float: right;
+
+					li {
+						&:last-child {
+							padding-right: 13px;
+						}
+						&:first-child {
+							padding-left: 0;
 						}
 					}
 				}

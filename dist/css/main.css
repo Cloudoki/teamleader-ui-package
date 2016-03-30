@@ -17,7 +17,7 @@ html {
 
 body {
   background-color: #e9eae9;
-  font-family: ProximaNovaRegular, Helvetica, sans-serif;
+  font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -145,7 +145,7 @@ img {
       position: relative;
       top: 8px; }
       .tl-pay-methods .tl-pay-method > div.tl-pay-description .tl-pay-title {
-        font-family: ProximaNovaSemibold, Helvetica, sans-serif;
+        font-family: WhiteLabel, ProximaNovaSemibold, Helvetica, sans-serif;
         font-size: 17px;
         line-height: 1em; }
     .tl-pay-methods .tl-pay-method > div:first-child {
@@ -186,7 +186,7 @@ img {
   .tl-card .tl-card-body {
     padding: 13px 19px; }
   .tl-card .tl-card-header {
-    font-family: ProximaNovaBold, Helvetica, sans-serif;
+    font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
     border-bottom: 1px solid #e9eae9;
     line-height: 1.4em;
     color: #4e4e4e; }
@@ -219,7 +219,7 @@ img {
       .tl-card .tl-card-body .tl-card-row.date {
         text-transform: uppercase; }
         .tl-card .tl-card-body .tl-card-row.date .tl-card-row-day {
-          font-family: ProximaNovaSemibold, Helvetica, sans-serif;
+          font-family: WhiteLabel, ProximaNovaSemibold, Helvetica, sans-serif;
           font-size: 12px;
           margin-left: 0; }
         .tl-card .tl-card-body .tl-card-row.date .tl-card-row-date, .tl-card .tl-card-body .tl-card-row.date .tl-card-row-time {
@@ -251,7 +251,7 @@ img {
     font-size: 13px; }
     .tl-card.tl-table thead th span {
       display: block;
-      font-family: ProximaNovaBold, Helvetica, sans-serif;
+      font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
       padding-bottom: 1px;
       border-bottom: 2px solid #bababa; }
     .tl-card.tl-table thead th:first-child {
@@ -285,7 +285,7 @@ img {
   .tl-card.watermark {
     position: relative; }
     .tl-card.watermark .title {
-      font-family: ProximaNovaBold, Helvetica, sans-serif;
+      font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
       margin-bottom: 12px; }
     .tl-card.watermark .subtitle {
       font-size: 13px;

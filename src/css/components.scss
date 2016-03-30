@@ -20,69 +20,96 @@
 		height: 100%;
 		overflow: auto;
 
-		.tl-header {
-			padding: 42px 20px;
-			padding-bottom: 20px;
-			background-color: $white;
-			// color: $product-primary;
+		.tl-header-container {
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+			position: relative;
 
-			.tl-header-logo {
-				display: inline-block;
+			.tl-header {
+				padding: 42px 20px;
+				padding-bottom: 20px;
+				background-color: $white;
+				// color: $product-primary;
+
+				.tl-header-logo {
+					display: inline-block;
+				}
 			}
 
 			.tl-header-right {
-				float: right;
-				text-align: right;
+				position: absolute;
+			    top: 0;
+			    right: 0;
+			    padding: 42px;
+			    text-align: right;
+			    width: 30%;
+			    height: 100%;
+
 
 				&.tl-user-card .user-name {
 					color: $dark-grey;
 				}
-			}
-		}
 
-		.tl-header-menu {
-			background-color: $white;
-			min-height: 28px;
-		    padding: 3px 0px;
+				> div {
+					position: absolute;
+				    right: 0;
+				    padding-right: 20px;
 
-			ul.menu-items {
-				list-style: none;
-				display: inline-block;
-
-				li {
-					display: inline-block;
-					text-align: center;
-					font-size: 13px;
-					line-height: 13px;
-					padding-left: 20px;
-
-					a {
-						color: $dark-blue;
-						display: block;
-						opacity: .7;
-						padding: 8px 0px;
+					&:last-child {
+						bottom: 0;
+						padding-bottom: $padding-menu-vertical;
+						font-style: italic;
 					}
 
-					// &.highlight {
-					// 	background-color: $product-secondary;
-					// }
-
-					&:hover {
-						a {
-							opacity: 1;
-						}
+					&:first-child {
 					}
 				}
+			}
 
-				&.right-menu {
-					float: right;
+			.tl-header-menu {
+				background-color: $white;
+				min-height: 28px;
+			    padding: 3px 0px;
+
+				ul.menu-items {
+					list-style: none;
+					display: inline-block;
 
 					li {
-						&:last-child {
-							padding-right: 13px;
+						display: inline-block;
+						text-align: center;
+						font-size: 12px;
+						font-weight: 600;
+						line-height: 13px;
+						padding-left: 20px;
+
+						a {
+							color: $dark-blue;
+							display: block;
+							opacity: .7;
+							padding: $padding-menu-vertical 0px;
 						}
-						&:first-child {
-							padding-left: 0;
+
+						// &.highlight {
+						// 	background-color: $product-secondary;
+						// }
+
+						&:hover {
+							a {
+								opacity: 1;
+							}
+						}
+					}
+
+					&.right-menu {
+						float: right;
+
+						li {
+							&:last-child {
+								padding-right: 13px;
+							}
+							&:first-child {
+								padding-left: 0;
+							}
 						}
 					}
 				}

@@ -93,43 +93,60 @@ img {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
     height: 100%;
     overflow: auto; }
-    .tl-split-view .tl-split-content .tl-header {
-      padding: 42px 20px;
-      padding-bottom: 20px;
-      background-color: #fff; }
-      .tl-split-view .tl-split-content .tl-header .tl-header-logo {
-        display: inline-block; }
-      .tl-split-view .tl-split-content .tl-header .tl-header-right {
-        float: right;
-        text-align: right; }
-        .tl-split-view .tl-split-content .tl-header .tl-header-right.tl-user-card .user-name {
+    .tl-split-view .tl-split-content .tl-header-container {
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+      position: relative; }
+      .tl-split-view .tl-split-content .tl-header-container .tl-header {
+        padding: 42px 20px;
+        padding-bottom: 20px;
+        background-color: #fff; }
+        .tl-split-view .tl-split-content .tl-header-container .tl-header .tl-header-logo {
+          display: inline-block; }
+      .tl-split-view .tl-split-content .tl-header-container .tl-header-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 42px;
+        text-align: right;
+        width: 30%;
+        height: 100%; }
+        .tl-split-view .tl-split-content .tl-header-container .tl-header-right.tl-user-card .user-name {
           color: #4e4e4e; }
-    .tl-split-view .tl-split-content .tl-header-menu {
-      background-color: #fff;
-      min-height: 28px;
-      padding: 3px 0px; }
-      .tl-split-view .tl-split-content .tl-header-menu ul.menu-items {
-        list-style: none;
-        display: inline-block; }
-        .tl-split-view .tl-split-content .tl-header-menu ul.menu-items li {
-          display: inline-block;
-          text-align: center;
-          font-size: 13px;
-          line-height: 13px;
-          padding-left: 20px; }
-          .tl-split-view .tl-split-content .tl-header-menu ul.menu-items li a {
-            color: #2b3b4c;
-            display: block;
-            opacity: .7;
-            padding: 8px 0px; }
-          .tl-split-view .tl-split-content .tl-header-menu ul.menu-items li:hover a {
-            opacity: 1; }
-        .tl-split-view .tl-split-content .tl-header-menu ul.menu-items.right-menu {
-          float: right; }
-          .tl-split-view .tl-split-content .tl-header-menu ul.menu-items.right-menu li:last-child {
-            padding-right: 13px; }
-          .tl-split-view .tl-split-content .tl-header-menu ul.menu-items.right-menu li:first-child {
-            padding-left: 0; }
+        .tl-split-view .tl-split-content .tl-header-container .tl-header-right > div {
+          position: absolute;
+          right: 0;
+          padding-right: 20px; }
+          .tl-split-view .tl-split-content .tl-header-container .tl-header-right > div:last-child {
+            bottom: 0;
+            padding-bottom: 15px;
+            font-style: italic; }
+      .tl-split-view .tl-split-content .tl-header-container .tl-header-menu {
+        background-color: #fff;
+        min-height: 28px;
+        padding: 3px 0px; }
+        .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items {
+          list-style: none;
+          display: inline-block; }
+          .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li {
+            display: inline-block;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 13px;
+            padding-left: 20px; }
+            .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li a {
+              color: #2b3b4c;
+              display: block;
+              opacity: .7;
+              padding: 15px 0px; }
+            .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li:hover a {
+              opacity: 1; }
+          .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu {
+            float: right; }
+            .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu li:last-child {
+              padding-right: 13px; }
+            .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu li:first-child {
+              padding-left: 0; }
     .tl-split-view .tl-split-content .tl-split-body {
       padding: 20px; }
       .tl-split-view .tl-split-content .tl-split-body .tl-card.full {

@@ -97,8 +97,8 @@ img {
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
       position: relative; }
       .tl-split-view .tl-split-content .tl-header-container .tl-header {
-        padding: 42px 20px;
-        padding-bottom: 20px;
+        padding: 32px 20px;
+        padding-bottom: 5px;
         background-color: #fff; }
         .tl-split-view .tl-split-content .tl-header-container .tl-header .tl-header-logo {
           display: inline-block; }
@@ -106,7 +106,7 @@ img {
         position: absolute;
         top: 0;
         right: 0;
-        padding: 42px;
+        padding: 32px;
         text-align: right;
         width: 30%;
         height: 100%; }

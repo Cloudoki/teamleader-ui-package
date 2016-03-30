@@ -440,3 +440,22 @@ label {
     bottom: 0;
     background-color: #fff;
     border: 3px solid #e9eae9; }
+
+.modal-dialog .modal-content {
+  border-radius: 0; }
+  .modal-dialog .modal-content .modal-header,
+  .modal-dialog .modal-content .modal-body,
+  .modal-dialog .modal-content .modal-footer {
+    padding: 20px; }
+  .modal-dialog .modal-content .modal-body {
+    font-size: 13px; }
+  .modal-dialog .modal-content .modal-footer {
+    border-top: none;
+    padding-top: 0; }
+    .modal-dialog .modal-content .modal-footer .tl-btn {
+      margin-right: 12px; }
+      .modal-dialog .modal-content .modal-footer .tl-btn:last-child {
+        margin-right: 0; }
+
+.modal-dialog.mini {
+  max-width: 330px; }

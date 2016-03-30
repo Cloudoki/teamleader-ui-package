@@ -19,10 +19,15 @@
 	.tl-card-body {
 		padding: 19px;
 
+		.title {
+			font-family: $font-bold;
+			margin-bottom: 10px;
+		}
+
 		.subtitle {
 			// color: $dark-blue;
 			opacity: .7;
-			font-size: 12px;
+			font-size: 13px;
 		}
 
 		.tl-user-card {

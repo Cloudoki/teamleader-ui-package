@@ -52,6 +52,11 @@ img {
 	max-width: 100%;
 }
 
+iframe {
+	width: 100%;
+	border: 0;
+}
+
 .text-redded {
 	color: $red;
 }
@@ -70,6 +75,10 @@ img {
 
 .secondaryed {
 	background-color: $product-secondary;
+}
+
+.text-red {
+	color: $red;
 }
 
 .user-avatar {

@@ -1,11 +1,14 @@
 .tl-btn {
 
 	border: none;
-	padding: 6px 28px;
+	padding: 9px 16px;
 	color: $white;
 	text-transform: uppercase;
 	display: inline-block;
-	font-size: 13px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	font-family: $font-bold;
 
 	&.transparent {
 		background-color: transparent;

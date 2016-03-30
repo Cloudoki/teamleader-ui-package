@@ -6,7 +6,7 @@
 		<div class="tl-header-container">
 			<div class="tl-header text-primary">
 				<div class="tl-header-logo">
-					<img src="https://placehold.it/200x50">
+					<img src="https://placehold.it/157x30">
 				</div>
 			</div>
 			{{> organisms/cloudsign-header-menu}}
@@ -14,9 +14,27 @@
 		</div>
 
 		<div class="tl-split-body">
-			{{> molecules/full-width-card}}
+			<!-- {{> molecules/full-width-card}} -->
+			<textarea></textarea>
+			<div class="text-right">
+				{{> atoms/button text="send" classes="secondaryed"}}
+			</div>
+			<br>
+			<div class="tl-quotation">
+				<iframe src="http://placehold.it/525x2000"></iframe>
+				<div class="tl-quotation-footer">
+					<div class="text-left pull-left">
+						{{> atoms/button text="download" classes="primaryed"}}
+					</div>
+					<div class="text-right pull-right">
+						{{> atoms/button text="give feedback" classes="primaryed"}}
+						{{> atoms/button text="accept" classes="secondaryed"}}
+					</div>
+				</div>
+			</div>
+			<br>
 			{{> organisms/quotation-card}}
-			{{> organisms/invoice-feedback-card}}
+			<!-- {{> organisms/invoice-feedback-card}} -->
 		</div>
 	</div>
 	<div class="tl-split-bg"></div>

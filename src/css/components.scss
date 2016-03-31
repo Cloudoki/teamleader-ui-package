@@ -231,6 +231,10 @@
 .quotation-detail {
 	margin-bottom: 10px !important;
 
+	.tl-card-body {
+		padding: 15px !important;
+	}
+
 	.tl-table {
 		display: table;
 		width: 100%;
@@ -248,5 +252,56 @@
 		.title, .subtitle {
 		    margin-bottom: 0px !important;
 		}
+	}
+}
+
+.feedback {
+	min-height: 200px;
+	position: relative;
+	max-height: 600px;
+    overflow: auto;
+
+	.user-avatar {
+		width: 35px;
+		height: 35px;
+		position: absolute;
+
+		&.you {
+			left: 20px
+		}
+
+		&.me {
+			right: 20px
+		}
+	}
+
+	.tl-card-body {
+		padding: 26px 70px !important;
+	}
+
+	.feedback-detail {
+	    border: solid 1px rgba(211, 211, 211, 0.4);
+    	padding: 8px 15px;
+
+    	&:not(:last-child) {
+    		margin-bottom: 12px;
+    	}
+
+    	.header {
+
+    		> div {
+    			display: inline-block;
+    		}
+
+    		.title {
+    			font-size: 16px;
+    		}
+
+    		.subtitle {
+    			opacity: .4;
+    			font-size: 12px;
+    			line-height: 2em;
+    		}
+    	}
 	}
 }

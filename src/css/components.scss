@@ -329,14 +329,21 @@
 	.tl-table {
 		display: table;
 		width: 100%;
+		padding: 0 !important;
 
 		> div {
 			display: table-cell;
 		    vertical-align: middle;
+		    padding: 15px;
 
 		    &:not(:first-child) {
 				text-align: right;
 				width: 31%;
+			}
+
+			&:last-child {
+				padding: 15px 0;
+				border-left: 1px solid $light-grey;
 			}
 		}
 

@@ -289,13 +289,18 @@ iframe {
     padding: 15px !important; }
   .quotation-detail .tl-table {
     display: table;
-    width: 100%; }
+    width: 100%;
+    padding: 0 !important; }
     .quotation-detail .tl-table > div {
       display: table-cell;
-      vertical-align: middle; }
+      vertical-align: middle;
+      padding: 15px; }
       .quotation-detail .tl-table > div:not(:first-child) {
         text-align: right;
         width: 31%; }
+      .quotation-detail .tl-table > div:last-child {
+        padding: 15px 0;
+        border-left: 1px solid #e9eae9; }
     .quotation-detail .tl-table .title, .quotation-detail .tl-table .subtitle {
       margin-bottom: 0px !important; }
 

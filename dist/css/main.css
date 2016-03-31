@@ -224,6 +224,18 @@ iframe {
       .tl-quotation .tl-quotation-footer .tl-btn:last-child {
         margin-right: 0; }
 
+.tl-table {
+  display: table;
+  width: 100%; }
+  .tl-table > div {
+    display: table-cell;
+    vertical-align: middle; }
+    .tl-table > div:not(:first-child) {
+      text-align: right;
+      width: 31%; }
+  .tl-table .title, .tl-table .subtitle {
+    margin-bottom: 0px !important; }
+
 .tl-card {
   background-color: #fff;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);

@@ -227,3 +227,22 @@
 		}
 	}
 }
+
+.tl-table {
+	display: table;
+	width: 100%;
+
+	> div {
+		display: table-cell;
+	    vertical-align: middle;
+
+	    &:not(:first-child) {
+			text-align: right;
+			width: 31%;
+		}
+	}
+
+	.title, .subtitle {
+	    margin-bottom: 0px !important;
+	}
+}

@@ -103,7 +103,8 @@ iframe {
     position: relative; }
     .tl-split-view .tl-split-content .tl-header-container {
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-      position: relative; }
+      position: relative;
+      z-index: 10; }
       .tl-split-view .tl-split-content .tl-header-container .tl-header {
         padding: 32px 20px;
         padding-bottom: 5px;
@@ -176,7 +177,8 @@ iframe {
       bottom: 0;
       width: 100%;
       background-color: #fff;
-      padding: 20px; }
+      padding: 20px;
+      z-index: 10; }
   .tl-split-view.no-header .tl-header-container {
     display: none; }
   .tl-split-view.no-header .tl-split-body {

@@ -99,7 +99,8 @@ iframe {
     float: left;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
     height: 100%;
-    overflow: auto; }
+    overflow: auto;
+    position: relative; }
     .tl-split-view .tl-split-content .tl-header-container {
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
       position: relative; }
@@ -160,10 +161,19 @@ iframe {
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu li:first-child {
               padding-left: 0; }
     .tl-split-view .tl-split-content .tl-split-body {
-      padding: 20px; }
+      padding: 140px 20px 20px 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; }
       .tl-split-view .tl-split-content .tl-split-body .tl-card.full {
         margin-right: -20px;
         margin-left: -20px; }
+  .tl-split-view.no-header .tl-header-container {
+    display: none; }
+  .tl-split-view.no-header .tl-split-body {
+    padding-top: 20px; }
 
 .tl-pay-methods .tl-pay-method {
   margin-bottom: 10px; }

@@ -224,17 +224,19 @@ iframe {
       .tl-quotation .tl-quotation-footer .tl-btn:last-child {
         margin-right: 0; }
 
-.tl-table {
-  display: table;
-  width: 100%; }
-  .tl-table > div {
-    display: table-cell;
-    vertical-align: middle; }
-    .tl-table > div:not(:first-child) {
-      text-align: right;
-      width: 31%; }
-  .tl-table .title, .tl-table .subtitle {
-    margin-bottom: 0px !important; }
+.quotation-detail {
+  margin-bottom: 10px !important; }
+  .quotation-detail .tl-table {
+    display: table;
+    width: 100%; }
+    .quotation-detail .tl-table > div {
+      display: table-cell;
+      vertical-align: middle; }
+      .quotation-detail .tl-table > div:not(:first-child) {
+        text-align: right;
+        width: 31%; }
+    .quotation-detail .tl-table .title, .quotation-detail .tl-table .subtitle {
+      margin-bottom: 0px !important; }
 
 .tl-card {
   background-color: #fff;

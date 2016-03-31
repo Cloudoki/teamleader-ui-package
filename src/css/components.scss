@@ -228,21 +228,25 @@
 	}
 }
 
-.tl-table {
-	display: table;
-	width: 100%;
+.quotation-detail {
+	margin-bottom: 10px !important;
 
-	> div {
-		display: table-cell;
-	    vertical-align: middle;
+	.tl-table {
+		display: table;
+		width: 100%;
 
-	    &:not(:first-child) {
-			text-align: right;
-			width: 31%;
+		> div {
+			display: table-cell;
+		    vertical-align: middle;
+
+		    &:not(:first-child) {
+				text-align: right;
+				width: 31%;
+			}
 		}
-	}
 
-	.title, .subtitle {
-	    margin-bottom: 0px !important;
+		.title, .subtitle {
+		    margin-bottom: 0px !important;
+		}
 	}
 }

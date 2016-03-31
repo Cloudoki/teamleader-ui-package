@@ -8,6 +8,28 @@ textarea {
 	font-size: 16px;
 }
 
+input, textarea {
+	&::-webkit-input-placeholder {
+	   font-family: $font-regular;
+	   opacity: .7;
+	}
+
+	&:-moz-placeholder { /* Firefox 18- */
+	   font-family: $font-regular;
+	   opacity: .7;
+	}
+
+	&::-moz-placeholder {  /* Firefox 19+ */
+	   font-family: $font-regular;
+	   opacity: .7;
+	}
+
+	&:-ms-input-placeholder {  
+	   font-family: $font-regular;
+	   opacity: .7;
+	}
+}
+
 label {
 	font-size: 11px;
 	// color: $dark-blue;

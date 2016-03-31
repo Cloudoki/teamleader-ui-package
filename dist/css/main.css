@@ -161,7 +161,7 @@ iframe {
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu li:first-child {
               padding-left: 0; }
     .tl-split-view .tl-split-content .tl-split-body {
-      padding: 140px 20px 20px 20px;
+      padding: 140px 20px 96px 20px;
       position: absolute;
       left: 0;
       top: 0;
@@ -181,6 +181,10 @@ iframe {
     display: none; }
   .tl-split-view.no-header .tl-split-body {
     padding-top: 20px; }
+  .tl-split-view.no-footer .tl-split-footer {
+    display: none; }
+  .tl-split-view.no-footer .tl-split-body {
+    padding-bottom: 20px; }
 
 .tl-pay-methods .tl-pay-method {
   margin-bottom: 10px; }

@@ -299,8 +299,11 @@ iframe {
         text-align: right;
         width: 31%; }
       .quotation-detail .tl-table > div:last-child {
-        padding: 15px 0;
         border-left: 1px solid #e9eae9; }
+        .quotation-detail .tl-table > div:last-child a {
+          text-align: center;
+          padding: 15px;
+          text-transform: uppercase; }
     .quotation-detail .tl-table .title, .quotation-detail .tl-table .subtitle {
       margin-bottom: 0px !important; }
 

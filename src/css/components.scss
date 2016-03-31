@@ -25,6 +25,7 @@
 			position: relative;
 			background-color: $white;
 			min-height: 110px;
+			z-index: 10;
 
 			.tl-header-logo {
 				display: inline-block;
@@ -134,13 +135,80 @@
 			}
 		}
 
-		.tl-split-body {
-			padding: 20px;
+		.tl-split-body-wrapper {
+			padding: 110px 0 76px 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
 
-			.tl-card.full {
-				margin-right: -20px;
-				margin-left: -20px;
+			> div {
+				position: relative;
+				width: 100%;
+				height: 100%;
+
+				.tl-split-body {
+					padding: 20px;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					overflow: auto;
+
+					.tl-card.full {
+						margin-right: -20px;
+						margin-left: -20px;
+					}
+				}
+
+				.tl-split-footer {
+					position: absolute;
+					left: 0;
+					bottom: -76px;
+					width: 100%;
+					background-color: $white;
+					padding: 20px;
+					z-index: 10;
+					box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+
+					.tl-btn.transparent {
+						color: $dark-blue;
+						opacity: .7;
+
+						&:hover {
+							opacity: 1;
+						}
+
+						&:first-child {
+							padding-left: 0;
+						}
+						&:last-child {
+							padding-right: 0;
+						}
+					}
+				}
 			}
+		}
+	}
+
+	&.no-header {
+		.tl-header-container {
+			display: none;
+		}
+		.tl-split-body {
+			padding-top: 20px;
+		}
+	}
+
+	&.no-footer {
+		.tl-split-footer {
+			display: none;
+		}
+		.tl-split-body {
+			padding-bottom: 20px;
 		}
 	}
 }
@@ -218,28 +286,34 @@
 }
 
 .tl-quotation {
-	padding: 0 10px;
 	position: relative;
 
 	iframe {
 		width: 100%;
 		border: 0;
 		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-		min-height: 600px;
+		min-height: 550px;
 	}
 
-	.tl-quotation-footer {
-		position: absolute;
-		bottom: 25px;
-		margin: 0 -10px;
-		width: 100%;
+	// .tl-quotation-footer {
+	// 	position: absolute;
+	// 	bottom: 25px;
+	// 	margin: 0 -10px;
+	// 	width: 100%;
 
-		.tl-btn {
-			margin-right: 15px;
+	// 	.tl-btn {
+	// 		margin-right: 15px;
 
-			&:last-child {
-				margin-right: 0;
-			}
+	// 		&:last-child {
+	// 			margin-right: 0;
+	// 		}
+	// 	}
+	// }
+
+	&.full-height {
+		height: 100%;
+		iframe {
+			height: 100%;
 		}
 	}
 }
@@ -282,11 +356,11 @@
 		height: 35px;
 		position: absolute;
 
-		&.you {
+		&.client {
 			left: 20px
 		}
 
-		&.me {
+		&.enterprise {
 			right: 20px
 		}
 	}

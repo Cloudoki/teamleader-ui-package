@@ -1,4 +1,5 @@
 /* main scss file */
+/* Main colors variables */
 @font-face {
   font-family: "ProximaNova";
   src: url("../fonts/ProximaNovaMedium.otf") format("opentype"); }
@@ -11,7 +12,10 @@
   font-family: "ProximaNovaBold";
   src: url("../fonts/ProximaNovaBold.otf") format("opentype"); }
 
-/* Main colors variables */
+h2 {
+  font-size: 17px;
+  font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif; }
+
 html {
   height: 100%; }
 

@@ -1,3 +1,8 @@
 @include font-face(ProximaNova, "../fonts/ProximaNovaMedium");
 @include font-face(ProximaNovaSemiBold, "../fonts/ProximaNovaSemibold");
 @include font-face(ProximaNovaBold, "../fonts/ProximaNovaBold");
+
+h2 {
+	font-size: 17px;
+	font-family: $font-bold;
+}

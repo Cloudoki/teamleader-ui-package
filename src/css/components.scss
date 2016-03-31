@@ -343,11 +343,14 @@
 
 			&:last-child {
 				border-left: 1px solid $light-grey;
+				padding: 0 !important;
+				text-align: center;
 
 				a {
 					text-align: center;
 					padding: 15px;
 					text-transform: uppercase;
+					color: $dark-blue;
 				}
 			}
 		}

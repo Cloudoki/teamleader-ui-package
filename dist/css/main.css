@@ -299,11 +299,14 @@ iframe {
         text-align: right;
         width: 31%; }
       .quotation-detail .tl-table > div:last-child {
-        border-left: 1px solid #e9eae9; }
+        border-left: 1px solid #e9eae9;
+        padding: 0 !important;
+        text-align: center; }
         .quotation-detail .tl-table > div:last-child a {
           text-align: center;
           padding: 15px;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          color: #2b3b4c; }
     .quotation-detail .tl-table .title, .quotation-detail .tl-table .subtitle {
       margin-bottom: 0px !important; }
 

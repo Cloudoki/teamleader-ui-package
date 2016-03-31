@@ -249,9 +249,9 @@ iframe {
     width: 35px;
     height: 35px;
     position: absolute; }
-    .feedback .user-avatar.you {
+    .feedback .user-avatar.client {
       left: 20px; }
-    .feedback .user-avatar.me {
+    .feedback .user-avatar.enterprise {
       right: 20px; }
   .feedback .tl-card-body {
     padding: 26px 70px !important; }

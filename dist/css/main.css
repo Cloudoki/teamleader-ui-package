@@ -170,25 +170,29 @@ iframe {
       width: 100%;
       height: 100%;
       overflow: auto; }
-    .tl-split-view .tl-split-content .tl-split-body {
-      padding: 140px 20px 96px 20px;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto; }
-      .tl-split-view .tl-split-content .tl-split-body .tl-card.full {
-        margin-right: -20px;
-        margin-left: -20px; }
-    .tl-split-view .tl-split-content .tl-split-footer {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #fff;
-      padding: 20px;
-      z-index: 10; }
+      .tl-split-view .tl-split-content .tl-split-body-wrapper > div {
+        position: relative;
+        width: 100%;
+        height: 100%; }
+        .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body {
+          padding: 20px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto; }
+          .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body .tl-card.full {
+            margin-right: -20px;
+            margin-left: -20px; }
+        .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer {
+          position: absolute;
+          left: 0;
+          bottom: -76px;
+          width: 100%;
+          background-color: #fff;
+          padding: 20px;
+          z-index: 10; }
   .tl-split-view.no-header .tl-header-container {
     display: none; }
   .tl-split-view.no-header .tl-split-body {

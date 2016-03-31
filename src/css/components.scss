@@ -132,6 +132,16 @@
 				margin-left: -20px;
 			}
 		}
+
+		.tl-split-foter {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: $white;
+			padding: 20px;
+		}
+
 	}
 
 	&.no-header {
@@ -217,7 +227,6 @@
 }
 
 .tl-quotation {
-	padding: 0 10px;
 	position: relative;
 
 	iframe {
@@ -227,20 +236,20 @@
 		min-height: 500px;
 	}
 
-	.tl-quotation-footer {
-		position: absolute;
-		bottom: 25px;
-		margin: 0 -10px;
-		width: 100%;
+	// .tl-quotation-footer {
+	// 	position: absolute;
+	// 	bottom: 25px;
+	// 	margin: 0 -10px;
+	// 	width: 100%;
 
-		.tl-btn {
-			margin-right: 15px;
+	// 	.tl-btn {
+	// 		margin-right: 15px;
 
-			&:last-child {
-				margin-right: 0;
-			}
-		}
-	}
+	// 		&:last-child {
+	// 			margin-right: 0;
+	// 		}
+	// 	}
+	// }
 
 	&.full-height {
 		height: 100%;

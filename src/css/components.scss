@@ -97,7 +97,7 @@
 					li {
 						display: inline-block;
 						text-align: center;
-						font-size: 11px;
+						font-size: 12px;
 						font-weight: 600;
 						line-height: 13px;
 						padding-left: 32px;
@@ -105,8 +105,11 @@
 						a {
 							color: $dark-blue;
 							display: block;
-							opacity: .7;
 							padding: $padding-menu-vertical 0px;
+						}
+
+						&.selected {
+							font-family: $font-bold;
 						}
 
 						&:first-child {
@@ -321,6 +324,7 @@
 
 .quotation-detail {
 	margin-bottom: 10px !important;
+	font-size: 12px;
 
 	.tl-card-body {
 		padding: 15px !important;
@@ -334,11 +338,21 @@
 		> div {
 			display: table-cell;
 		    vertical-align: middle;
-		    padding: 15px;
+		    padding: 20px 16px;
 
 		    &:not(:first-child) {
 				text-align: right;
 				width: 31%;
+			}
+
+			&:first-child {
+				.title {
+			    	font-size: 14px;
+			    }
+
+			    .subtitle {
+			    	font-size: 13px;
+			    }
 			}
 
 			&:last-child {

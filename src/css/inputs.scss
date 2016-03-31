@@ -35,9 +35,13 @@ input, textarea {
 }
 
 label {
-	font-size: 11px;
+	font-size: 13px;
 	// color: $dark-blue;
 	font-weight: 400;
+}
+
+.control-label {
+	font-size: 13px;
 }
 
 .form-group {

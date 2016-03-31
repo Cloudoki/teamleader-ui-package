@@ -18,34 +18,33 @@
 		float: left;
 		box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
 		height: 100%;
-		overflow: auto;
-		position: relative;
-		overflow: hidden;
+		overflow: visible;
 
 		.tl-header-container {
 			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 			position: relative;
-			z-index: 10;
+			background-color: $white;
+			min-height: 110px;
 
-			.tl-header {
-				padding: 32px 20px;
-				padding-bottom: 5px;
-				background-color: $white;
-				// color: $product-primary;
+			.tl-header-logo {
+				display: inline-block;
 
-				.tl-header-logo {
-					display: inline-block;
+				img {
+				    position: absolute;
+				    bottom: 0;
+				    top: 0;
+				    margin: auto;
+				    z-index: 2;
+				    left: 20px;
 				}
 			}
 
 			.tl-header-right {
-				position: absolute;
-			    top: 0;
-			    right: 0;
-			    padding: 32px;
+			    position: absolute;
+			    bottom: 20px;
+			    right: -10px;
 			    text-align: right;
-			    width: 30%;
-			    height: 100%;
+			    z-index: 1;
 
 
 				&.tl-user-card .user-name {
@@ -53,9 +52,7 @@
 				}
 
 				> div {
-					position: absolute;
-				    right: 0;
-				    padding-right: 20px;
+					display: inline-block;
 
 				    &.header-title {
 				    	font-size: 17px;
@@ -63,26 +60,42 @@
 				    }
 
 					&.header-subtitle {
-						bottom: 0;
-						padding-bottom: $padding-menu-vertical;
-						font-style: italic;
+						bottom: 0px;
+					    background: #f68d43;
+					    color: #fff;
+					    padding: 3px 20px;
+					    margin-left: 10px;
 					}
+				}
+
+				.border {
+				    position: absolute;
+				    width: 0;
+				    height: 0;
+				    border-top: 6px solid #B54800;
+				    border-right: 10px solid transparent;
+				    right: 0px
 				}
 			}
 
 			.tl-header-menu {
 				background-color: $white;
 				min-height: 28px;
+				text-align: right;
+				position: absolute;
+				width: 100%;
+				top: 0;
+				z-index: 1;
 
 				ul.menu-items {
 					list-style: none;
 					display: inline-block;
-					padding-left: 20px;
+					padding-right: 20px;
 
 					li {
 						display: inline-block;
 						text-align: center;
-						font-size: 12px;
+						font-size: 11px;
 						font-weight: 600;
 						line-height: 13px;
 						padding-left: 32px;
@@ -121,80 +134,13 @@
 			}
 		}
 
-		.tl-split-body-wrapper {
-			padding: 110px 0 76px 0;
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			overflow: auto;
+		.tl-split-body {
+			padding: 20px;
 
-			> div {
-				position: relative;
-				width: 100%;
-				height: 100%;
-
-				.tl-split-body {
-					padding: 20px;
-					position: absolute;
-					left: 0;
-					top: 0;
-					width: 100%;
-					height: 100%;
-					overflow: auto;
-
-					.tl-card.full {
-						margin-right: -20px;
-						margin-left: -20px;
-					}
-				}
-
-				.tl-split-footer {
-					position: absolute;
-					left: 0;
-					bottom: -76px;
-					width: 100%;
-					background-color: $white;
-					padding: 20px;
-					z-index: 10;
-					box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-
-					.tl-btn.transparent {
-						color: $dark-blue;
-						opacity: .7;
-
-						&:hover {
-							opacity: 1;
-						}
-
-						&:first-child {
-							padding-left: 0;
-						}
-						&:last-child {
-							padding-right: 0;
-						}
-					}
-				}
+			.tl-card.full {
+				margin-right: -20px;
+				margin-left: -20px;
 			}
-		}
-	}
-
-	&.no-header {
-		.tl-header-container {
-			display: none;
-		}
-		.tl-split-body {
-			padding-top: 20px;
-		}
-	}
-
-	&.no-footer {
-		.tl-split-footer {
-			display: none;
-		}
-		.tl-split-body {
-			padding-bottom: 20px;
 		}
 	}
 }
@@ -272,34 +218,28 @@
 }
 
 .tl-quotation {
+	padding: 0 10px;
 	position: relative;
 
 	iframe {
 		width: 100%;
 		border: 0;
 		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-		min-height: 500px;
+		min-height: 600px;
 	}
 
-	// .tl-quotation-footer {
-	// 	position: absolute;
-	// 	bottom: 25px;
-	// 	margin: 0 -10px;
-	// 	width: 100%;
+	.tl-quotation-footer {
+		position: absolute;
+		bottom: 25px;
+		margin: 0 -10px;
+		width: 100%;
 
-	// 	.tl-btn {
-	// 		margin-right: 15px;
+		.tl-btn {
+			margin-right: 15px;
 
-	// 		&:last-child {
-	// 			margin-right: 0;
-	// 		}
-	// 	}
-	// }
-
-	&.full-height {
-		height: 100%;
-		iframe {
-			height: 100%;
+			&:last-child {
+				margin-right: 0;
+			}
 		}
 	}
 }
@@ -342,11 +282,11 @@
 		height: 35px;
 		position: absolute;
 
-		&.client {
+		&.you {
 			left: 20px
 		}
 
-		&.enterprise {
+		&.me {
 			right: 20px
 		}
 	}

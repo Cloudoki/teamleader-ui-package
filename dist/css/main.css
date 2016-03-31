@@ -425,20 +425,24 @@ textarea {
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
+  color: #2b3b4c;
   opacity: .7; }
 
 input:-moz-placeholder, textarea:-moz-placeholder {
   /* Firefox 18- */
   font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
+  color: #2b3b4c;
   opacity: .7; }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   /* Firefox 19+ */
   font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
+  color: #2b3b4c;
   opacity: .7; }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
+  color: #2b3b4c;
   opacity: .7; }
 
 label {

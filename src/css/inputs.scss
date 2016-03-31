@@ -11,21 +11,25 @@ textarea {
 input, textarea {
 	&::-webkit-input-placeholder {
 	   font-family: $font-regular;
+	   color: $dark-blue;
 	   opacity: .7;
 	}
 
 	&:-moz-placeholder { /* Firefox 18- */
 	   font-family: $font-regular;
+	   color: $dark-blue;
 	   opacity: .7;
 	}
 
 	&::-moz-placeholder {  /* Firefox 19+ */
 	   font-family: $font-regular;
+	   color: $dark-blue;
 	   opacity: .7;
 	}
 
 	&:-ms-input-placeholder {  
 	   font-family: $font-regular;
+	   color: $dark-blue;
 	   opacity: .7;
 	}
 }

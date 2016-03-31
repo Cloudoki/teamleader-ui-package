@@ -65,7 +65,7 @@
 						bottom: 0px;
 					    background: #f68d43;
 					    color: #fff;
-					    padding: 3px 20px;
+					    padding: 5px 20px;
 					    margin-left: 10px;
 					}
 				}
@@ -98,7 +98,6 @@
 						display: inline-block;
 						text-align: center;
 						font-size: 12px;
-						font-weight: 600;
 						line-height: 13px;
 						padding-left: 32px;
 
@@ -324,7 +323,6 @@
 
 .quotation-detail {
 	margin-bottom: 10px !important;
-	font-size: 12px;
 
 	.tl-card-body {
 		padding: 15px !important;
@@ -339,6 +337,10 @@
 			display: table-cell;
 		    vertical-align: middle;
 		    padding: 20px 16px;
+
+		    .title, .subtitle {
+		    	font-size: 12px;
+		    }
 
 		    &:not(:first-child) {
 				text-align: right;

@@ -192,10 +192,13 @@ iframe {
           width: 100%;
           background-color: #fff;
           padding: 20px;
-          z-index: 10; }
+          z-index: 10;
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent {
             color: #2b3b4c;
             opacity: .7; }
+            .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent:hover {
+              opacity: 1; }
             .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent:first-child {
               padding-left: 0; }
             .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent:last-child {

@@ -169,7 +169,8 @@ iframe {
               display: block;
               padding: 20px 0px; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li.selected {
-              font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif; }
+              font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
+              font-weight: 600; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li:first-child {
               padding-left: 0; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li:hover a {
@@ -312,7 +313,8 @@ iframe {
           text-align: center;
           padding: 15px;
           text-transform: uppercase;
-          color: #2b3b4c; }
+          color: #2b3b4c;
+          font-size: 12px; }
     .quotation-detail .tl-table .title, .quotation-detail .tl-table .subtitle {
       margin-bottom: 0px !important; }
 

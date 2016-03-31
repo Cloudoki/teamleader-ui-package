@@ -193,6 +193,13 @@ iframe {
           background-color: #fff;
           padding: 20px;
           z-index: 10; }
+          .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent {
+            color: #2b3b4c;
+            opacity: .7; }
+            .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent:first-child {
+              padding-left: 0; }
+            .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer .tl-btn.transparent:last-child {
+              padding-right: 0; }
   .tl-split-view.no-header .tl-header-container {
     display: none; }
   .tl-split-view.no-header .tl-split-body {

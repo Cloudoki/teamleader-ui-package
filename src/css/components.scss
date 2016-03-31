@@ -158,6 +158,18 @@
 					background-color: $white;
 					padding: 20px;
 					z-index: 10;
+
+					.tl-btn.transparent {
+						color: $dark-blue;
+						opacity: .7;
+
+						&:first-child {
+							padding-left: 0;
+						}
+						&:last-child {
+							padding-right: 0;
+						}
+					}
 				}
 			}
 		}

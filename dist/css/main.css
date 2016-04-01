@@ -487,7 +487,6 @@ iframe {
   font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif; }
   .tl-btn.transparent {
     background-color: transparent;
-    padding: 6px 20px;
     color: #4e4e4e;
     box-shadow: none; }
   .tl-btn:hover {

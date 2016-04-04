@@ -146,7 +146,8 @@ iframe {
           height: 0;
           border-top: 6px solid #B54800;
           border-right: 10px solid transparent;
-          right: 0px; }
+          right: 0px;
+          bottom: -6px; }
       .tl-split-view .tl-split-content .tl-header-container .tl-header-menu {
         background-color: #fff;
         min-height: 28px;

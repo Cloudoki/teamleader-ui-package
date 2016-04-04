@@ -170,7 +170,6 @@ iframe {
               display: block;
               padding: 20px 0px; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li.selected {
-              font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
               font-weight: 600; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li:first-child {
               padding-left: 0; }

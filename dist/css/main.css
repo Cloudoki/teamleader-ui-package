@@ -174,7 +174,8 @@ iframe {
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li:first-child {
               padding-left: 0; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items li:hover a {
-              opacity: 1; }
+              opacity: 1;
+              font-weight: 600; }
           .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu {
             float: right; }
             .tl-split-view .tl-split-content .tl-header-container .tl-header-menu ul.menu-items.right-menu li:last-child {

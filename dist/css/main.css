@@ -211,7 +211,7 @@ iframe {
         height: 100%; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-notice {
           padding: 15px 30px;
-          background-color: #e9e9e9;
+          background-color: #f9f9f9;
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-notice .notice-title {
             font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
@@ -230,6 +230,8 @@ iframe {
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body .tl-card.full {
             margin-right: -30px;
             margin-left: -30px; }
+        .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-notice + .tl-split-body {
+          padding-top: 100px; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer {
           position: absolute;
           left: 0;

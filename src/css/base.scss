@@ -65,8 +65,28 @@ iframe {
 	color: $success;
 }
 
+.text-pending {
+  color: $orange;
+}
+
+.bg-redded {
+  background-color: $red !important;
+}
+
+.bg-success {
+  background-color: $success !important;
+}
+
+.bg-pending {
+  background-color: $orange !important;
+}
+
 .text-error {
 	color: $error;
+}
+
+.text-bold {
+	font-weight: 600;
 }
 
 .error {

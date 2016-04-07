@@ -3,6 +3,7 @@
 	.modal-content {
 		border-radius: 0;
 		border: none;
+		box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
 
 		.modal-header,
 		.modal-body,
@@ -30,5 +31,36 @@
 
 	&.mini {
 		max-width: 330px;
+	}
+
+	&.notification-modal {
+		width: 360px;
+		margin: 0 auto !important;
+
+		.modal-content {			
+			.modal-body {
+				border-left: 55px solid $light-grey;
+				position: relative;
+				opacity: .7;
+
+				&:before {
+					content: "";
+					position: absolute;
+					top: 20px;
+					left: -35px;
+				    font: normal normal normal 14px/1 FontAwesome;
+				    font-size: inherit;
+				    text-rendering: auto;
+				    -webkit-font-smoothing: antialiased;
+				    color: $white;
+				    font-size: 18px;
+				}
+
+				&.success-modal { border-left-color: $success; &:before {content: '\f00c';}}
+				&.error-modal { border-left-color: $error; &:before {content: '\f00c';}}
+				&.warning-modal { border-left-color: $warning; &:before {content: '\f00c';}}
+				&.info-modal { border-left-color: $info; &:before {content: '\f00c';}}
+			}
+		}
 	}
 }

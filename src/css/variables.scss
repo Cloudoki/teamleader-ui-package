@@ -18,9 +18,13 @@ $white: #fff;
 
 // Functional
 $blue: #5488c4;
-$green: #a3ce51;
+$green: #9ad100;
 $orange: #f68d43;
 $red: #e8423b;
+
+// Status
+$success: $green;
+$error: $orange;
 
 // Fonts
 $font-regular: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;

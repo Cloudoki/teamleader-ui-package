@@ -156,6 +156,21 @@
 				width: 100%;
 				height: 100%;
 
+				.tl-split-notice {
+					padding: 15px 30px;
+					background-color: $lighter-grey;
+					box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+
+					.notice-title {
+						font-family: $font-bold;
+						margin-bottom: 5px;
+					}
+					.notice-msg {
+						font-size: 13px;
+						opacity: .7;
+					}
+				}
+
 				.tl-split-body {
 					padding: 25px 30px;
 					position: absolute;

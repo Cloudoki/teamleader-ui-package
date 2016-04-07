@@ -61,6 +61,24 @@ iframe {
 	color: $red;
 }
 
+.text-success {
+	color: $success;
+}
+
+.text-error {
+	color: $error;
+}
+
+.error {
+	background-color: $error;
+	color: $white;
+}
+
+.success {
+	background-color: $success;
+	color: $white;
+}
+
 .text-primary {
 	color: $product-primary;
 }

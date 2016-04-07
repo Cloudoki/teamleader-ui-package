@@ -658,8 +658,9 @@ label {
   margin: 0 auto !important; }
   .modal-dialog.notification-modal .modal-content .modal-body {
     border-left: 55px solid #d8d8d8;
-    position: relative;
-    opacity: .7; }
+    position: relative; }
+    .modal-dialog.notification-modal .modal-content .modal-body .content {
+      opacity: .7; }
     .modal-dialog.notification-modal .modal-content .modal-body:before {
       content: "";
       position: absolute;
@@ -682,8 +683,10 @@ label {
     .modal-dialog.notification-modal .modal-content .modal-body.warning-modal {
       border-left-color: #f68d43; }
       .modal-dialog.notification-modal .modal-content .modal-body.warning-modal:before {
-        content: '\f00c'; }
+        font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
+        content: '!'; }
     .modal-dialog.notification-modal .modal-content .modal-body.info-modal {
       border-left-color: #5488c4; }
       .modal-dialog.notification-modal .modal-content .modal-body.info-modal:before {
-        content: '\f00c'; }
+        font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
+        content: '!'; }

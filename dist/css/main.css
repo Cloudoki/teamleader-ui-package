@@ -68,8 +68,23 @@ iframe {
 .text-success {
   color: #9ad100; }
 
+.text-pending {
+  color: #f68d43; }
+
+.bg-redded {
+  background-color: #e8423b !important; }
+
+.bg-success {
+  background-color: #9ad100 !important; }
+
+.bg-pending {
+  background-color: #f68d43 !important; }
+
 .text-error {
   color: #f68d43; }
+
+.text-bold {
+  font-weight: 600; }
 
 .error {
   background-color: #f68d43;
@@ -158,7 +173,7 @@ iframe {
           position: absolute;
           width: 0;
           height: 0;
-          border-top: 6px solid #B54800;
+          border-top: 6px solid #27221E;
           border-right: 10px solid transparent;
           right: 0px;
           bottom: -6px; }

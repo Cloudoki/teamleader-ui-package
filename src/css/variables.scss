@@ -24,7 +24,9 @@ $red: #e8423b;
 
 // Status
 $success: $green;
-$error: $orange;
+$error: $red;
+$warning: $orange;
+$info: $blue;
 
 // Fonts
 $font-regular: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;

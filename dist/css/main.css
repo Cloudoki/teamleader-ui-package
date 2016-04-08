@@ -97,7 +97,7 @@ iframe {
 .text-primary {
   color: #021d5b; }
 
-.text-secondary {
+.text-second\ary {
   color: #9ad100; }
 
 .primaryed {
@@ -114,6 +114,11 @@ iframe {
   width: 50px;
   height: 50px;
   overflow: hidden; }
+
+.details-text {
+  font-size: 13px;
+  opacity: .7;
+  margin-bottom: 35px; }
 
 .tl-split-view {
   position: absolute;
@@ -390,19 +395,26 @@ iframe {
       font-size: 12px;
       line-height: 2em; }
 
+.tl-container {
+  margin: 0px -30px;
+  background: #fff;
+  padding: 30px; }
+
 .tl-card {
   background-color: #fff;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 30px; }
+  .tl-card.feedback {
+    margin-bottom: -30px; }
   .tl-card .tl-card-header,
   .tl-card .tl-card-footer,
   .tl-card .tl-card-body {
     padding: 13px 19px; }
   .tl-card .tl-card-header {
     font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
-    border-bottom: 1px solid #d8d8d8;
     line-height: 1.4em;
-    color: #4e4e4e; }
+    color: #4e4e4e;
+    font-size: 17px; }
   .tl-card .tl-card-body {
     padding: 19px; }
     .tl-card .tl-card-body .title {
@@ -535,6 +547,24 @@ iframe {
   .tl-btn:hover {
     cursor: pointer; }
 
+.dropdown {
+  margin: -15px 0px 15px -10px; }
+  .dropdown .text-drop, .dropdown li {
+    font-size: 13px;
+    opacity: .7;
+    padding: 0; }
+  .dropdown button {
+    border: none;
+    background-color: transparent; }
+    .dropdown button span {
+      margin-left: 5px; }
+  .dropdown li a:hover {
+    background-color: #9ad100;
+    color: #fff; }
+  .dropdown .dropdown-menu {
+    border-radius: 0;
+    border: none; }
+
 textarea {
   width: 100%;
   min-height: 100px;
@@ -608,7 +638,7 @@ label {
     .tl-radio input[type=radio]:checked + label:after {
       position: absolute;
       left: 1px;
-      bottom: 3px;
+      bottom: 4px;
       content: "\2022";
       font-size: 66px;
       text-align: center;

@@ -103,7 +103,7 @@ iframe {
 	color: $product-primary;
 }
 
-.text-secondary {
+.text-second\ary {
 	color: $product-secondary;
 }
 
@@ -124,4 +124,10 @@ iframe {
 	width: 50px;
 	height: 50px;
 	overflow: hidden;
+}
+
+.details-text {
+  font-size: 13px;
+  opacity: .7;
+  margin-bottom: 35px;
 }

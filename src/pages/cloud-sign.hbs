@@ -13,24 +13,24 @@
         <div class="tl-split-body-wrapper">
             <div>
                 <div class="tl-split-body">
-                    <!-- quotation card detail -->
+                    <!-- Invoice dropdown -->
+                    {{> molecules/invoice-dropdown}}
+                    <!-- quotation detail -->
                     {{> organisms/quotation-card-detail status-class="text-redded" status-text="overdue"}}
                     {{> organisms/quotation-card-detail status-class="text-pending" status-text="not paid"}}
                     {{> organisms/quotation-card-detail status-class="text-success" status-text="paid"}}
                     <br/>
+                    <!-- form data -->
+                    {{> organisms/invoice-form-group}}
+                    {{> organisms/invoice-pay-card}}
+                    {{> organisms/invoice-pay2-card}}
+                    <!-- feedback send -->
                     {{> organisms/invoice-feedback-card}}
                     <br/>
+                    <!-- feedback messages -->
                     {{> organisms/invoice-feedback}}
                 </div>
-                <div class="tl-split-footer">
-                    <div class="text-left pull-left">
-                        <button class="tl-btn primaryed transparent" data-action="download" id="download-quotation">download</button>
-                    </div>
-                    <div class="text-right pull-right">
-                        <button class="tl-btn primaryed transparent" data-action="give-feedback" id="give-feedback">feedback</button>
-                        <button class="tl-btn secondaryed" data-action="accept" id="accept-quotation">accept this quotation</button>
-                    </div>
-                </div>
+                {{> molecules/footer-menu}}
             </div>
         </div>
 	</div>

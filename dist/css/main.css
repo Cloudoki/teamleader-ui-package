@@ -250,6 +250,8 @@ iframe {
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body .tl-card.full {
             margin-right: -30px;
             margin-left: -30px; }
+          .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body.whited {
+            background-color: #fff; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-notice + .tl-split-body {
           padding-top: 100px; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer {

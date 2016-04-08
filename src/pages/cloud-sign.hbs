@@ -18,68 +18,8 @@
                     {{> organisms/quotation-card-detail status-class="text-pending" status-text="not paid"}}
                     {{> organisms/quotation-card-detail status-class="text-success" status-text="paid"}}
                     <br/>
-                    <div class="tl-card tl-container">
-                        <div class="details-text">Have you found a typo, or changed address? You may now change your details yourself. But note that only future documents will use the new information. If you want something changed on current documents, use the feedback tab.</div>
-                        <form class="form-horizontal">
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted">First name</div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="Rui" data-attr="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted">Last name</div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="Molefas" data-attr="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted">Email</div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="" data-attr="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted">Tel.</div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="" data-attr="name">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted">Address</div>
-                                        <div class="col-xs-5">
-                                            <input type="text" class="form-control" placeholder="Rui" data-attr="name">
-                                        </div>
-                                        <div class="col-xs-2">
-                                            <input type="text" class="form-control" placeholder="Rui" data-attr="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted"></div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="" data-attr="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted"></div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="" data-attr="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div for="name" class="col-xs-5 control-label muted">VAT</div>
-                                        <div class="col-xs-7">
-                                            <input type="text" class="form-control" placeholder="" data-attr="name">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <!-- form data -->
+                    {{> organisms/invoice-form-group}}
                     <!-- send feedback -->
                     {{> organisms/invoice-feedback-card}}
                     <br/>

@@ -288,11 +288,12 @@ iframe {
     margin-left: 17px; }
     .tl-pay-methods .tl-pay-method > div.tl-pay-description {
       position: relative;
-      top: 8px; }
+      top: 12px; }
       .tl-pay-methods .tl-pay-method > div.tl-pay-description .tl-pay-title {
-        font-family: WhiteLabel, ProximaNovaSemibold, Helvetica, sans-serif;
-        font-size: 17px;
-        line-height: 1em; }
+        font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 1em;
+        margin-bottom: 3px; }
     .tl-pay-methods .tl-pay-method > div:first-child {
       margin-left: 0; }
 

@@ -254,12 +254,13 @@
 
 			&.tl-pay-description {
 				position: relative;
-				top: 8px;
+				top: 12px;
 
 				.tl-pay-title {
-					font-family: $font-semibold;
-					font-size: 17px;
+					font-family: $font-bold;
+					font-size: 14px;
 					line-height: 1em;
+					margin-bottom: 3px;
 				}
 			}
 

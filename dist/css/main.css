@@ -412,9 +412,9 @@ iframe {
     padding: 13px 19px; }
   .tl-card .tl-card-header {
     font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
-    border-bottom: 1px solid #d8d8d8;
     line-height: 1.4em;
-    color: #4e4e4e; }
+    color: #4e4e4e;
+    font-size: 17px; }
   .tl-card .tl-card-body {
     padding: 19px; }
     .tl-card .tl-card-body .title {
@@ -547,6 +547,24 @@ iframe {
   .tl-btn:hover {
     cursor: pointer; }
 
+.dropdown {
+  margin: -15px 0px 15px -10px; }
+  .dropdown .text-drop, .dropdown li {
+    font-size: 13px;
+    opacity: .7;
+    padding: 0; }
+  .dropdown button {
+    border: none;
+    background-color: transparent; }
+    .dropdown button span {
+      margin-left: 5px; }
+  .dropdown li a:hover {
+    background-color: #9ad100;
+    color: #fff; }
+  .dropdown .dropdown-menu {
+    border-radius: 0;
+    border: none; }
+
 textarea {
   width: 100%;
   min-height: 100px;
@@ -620,7 +638,7 @@ label {
     .tl-radio input[type=radio]:checked + label:after {
       position: absolute;
       left: 1px;
-      bottom: 3px;
+      bottom: 4px;
       content: "\2022";
       font-size: 66px;
       text-align: center;

@@ -13,6 +13,8 @@
         <div class="tl-split-body-wrapper">
             <div>
                 <div class="tl-split-body">
+                    <!-- Invoice dropdown -->
+                    {{> molecules/invoice-dropdown}}
                     <!-- quotation detail -->
                     {{> organisms/quotation-card-detail status-class="text-redded" status-text="overdue"}}
                     {{> organisms/quotation-card-detail status-class="text-pending" status-text="not paid"}}
@@ -20,9 +22,12 @@
                     <br/>
                     <!-- form data -->
                     {{> organisms/invoice-form-group}}
-                    <!-- send feedback -->
+                    {{> organisms/invoice-pay-card}}
+                    {{> organisms/invoice-pay2-card}}
+                    <!-- feedback send -->
                     {{> organisms/invoice-feedback-card}}
                     <br/>
+                    <!-- feedback messages -->
                     {{> organisms/invoice-feedback}}
                 </div>
                 {{> molecules/footer-menu}}

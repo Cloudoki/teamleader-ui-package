@@ -3,6 +3,10 @@
 	box-shadow: $shadow;
 	margin-bottom: 30px;
 
+  	&.feedback {
+	  margin-bottom: -30px;
+	}
+
 	.tl-card-header,
 	.tl-card-footer,
 	.tl-card-body {

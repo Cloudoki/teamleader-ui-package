@@ -548,6 +548,12 @@ iframe {
     box-shadow: none; }
   .tl-btn:hover {
     cursor: pointer; }
+  .tl-btn.quotation {
+    background-color: transparent;
+    font-family: ProximaNova;
+    opacity: .8; }
+    .tl-btn.quotation:hover {
+      opacity: 1; }
 
 .dropdown {
   margin: -15px 0px 15px -10px; }

@@ -19,6 +19,16 @@
 	&:hover {
 		cursor: pointer;
 	}
+
+  	&.quotation {
+	  background-color: transparent;
+	  font-family: ProximaNova;
+	  opacity: .8;
+
+	  &:hover {
+		opacity: 1;
+	  }
+	}
 }
 
 .dropdown {

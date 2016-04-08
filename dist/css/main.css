@@ -294,6 +294,9 @@ iframe {
         font-size: 14px;
         line-height: 1em;
         margin-bottom: 3px; }
+      .tl-pay-methods .tl-pay-method > div.tl-pay-description .subtitle {
+        font-size: 13px;
+        opacity: .7; }
     .tl-pay-methods .tl-pay-method > div:first-child {
       margin-left: 0; }
 

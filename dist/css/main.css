@@ -95,16 +95,16 @@ iframe {
   color: #fff; }
 
 .text-primary {
-  color: #021d5b; }
+  color: #2b3b4c; }
 
 .text-second\ary {
-  color: #9ad100; }
+  color: #2b3b4c; }
 
 .primaryed {
-  background-color: #021d5b; }
+  background-color: #2b3b4c; }
 
 .secondaryed {
-  background-color: #9ad100; }
+  background-color: #2b3b4c; }
 
 .text-red {
   color: #e8423b; }
@@ -250,6 +250,9 @@ iframe {
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body .tl-card.full {
             margin-right: -30px;
             margin-left: -30px; }
+          .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body .subtitle {
+            opacity: .7;
+            font-size: 13px; }
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body.whited {
             background-color: #fff; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-notice + .tl-split-body {
@@ -479,60 +482,6 @@ iframe {
     .tl-card .tl-card-body .title {
       font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
       margin-bottom: 10px; }
-    .tl-card .tl-card-body .subtitle {
-      opacity: .7;
-      font-size: 13px; }
-    .tl-card .tl-card-body .tl-user-card {
-      margin-bottom: 10px; }
-    .tl-card .tl-card-body .tl-card-row {
-      margin: 0 -19px;
-      padding: 16px 19px;
-      border-bottom: 1px solid #d8d8d8; }
-      .tl-card .tl-card-body .tl-card-row > div {
-        display: inline-block;
-        margin-left: 33px; }
-        .tl-card .tl-card-body .tl-card-row > div:first-child {
-          margin-left: 0; }
-      .tl-card .tl-card-body .tl-card-row .tl-radio label {
-        margin: 0; }
-        .tl-card .tl-card-body .tl-card-row .tl-radio label:before {
-          bottom: -3px; }
-        .tl-card .tl-card-body .tl-card-row .tl-radio label:after {
-          bottom: 0; }
-      .tl-card .tl-card-body .tl-card-row:first-child {
-        margin-top: -19px; }
-      .tl-card .tl-card-body .tl-card-row:last-child {
-        margin-bottom: -19px; }
-      .tl-card .tl-card-body .tl-card-row.date {
-        text-transform: uppercase; }
-        .tl-card .tl-card-body .tl-card-row.date .tl-card-row-day {
-          font-family: WhiteLabel, ProximaNovaSemibold, Helvetica, sans-serif;
-          font-size: 12px;
-          margin-left: 0; }
-        .tl-card .tl-card-body .tl-card-row.date .tl-card-row-date, .tl-card .tl-card-body .tl-card-row.date .tl-card-row-time {
-          font-size: 20px;
-          position: relative;
-          top: 2px;
-          letter-spacing: 0.8px; }
-        .tl-card .tl-card-body .tl-card-row.date .tl-card-row-time {
-          opacity: .7; }
-  .tl-card .tl-card-footer {
-    background-color: #e9e9e9; }
-    .tl-card .tl-card-footer.btn-footer {
-      padding: 0; }
-      .tl-card .tl-card-footer.btn-footer ul {
-        display: table;
-        table-layout: fixed;
-        width: 100%; }
-        .tl-card .tl-card-footer.btn-footer ul li {
-          display: table-cell;
-          vertical-align: middle;
-          text-align: center; }
-          .tl-card .tl-card-footer.btn-footer ul li a {
-            display: block;
-            padding: 5px;
-            color: #fff;
-            font-size: 13px; }
   .tl-card.tl-table thead th {
     padding: 15px 5px 0px 5px;
     font-size: 13px; }
@@ -557,37 +506,6 @@ iframe {
       padding-right: 19px; }
   .tl-card.tl-table tbody tr:last-child td {
     padding-bottom: 20px; }
-  .tl-card.balloon {
-    position: relative; }
-    .tl-card.balloon:before {
-      content: '';
-      position: absolute;
-      top: -7px;
-      right: 18px;
-      width: 0;
-      height: 0;
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-bottom: 7px solid #fff; }
-  .tl-card.watermark {
-    position: relative; }
-    .tl-card.watermark .title {
-      font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
-      margin-bottom: 12px; }
-    .tl-card.watermark .subtitle {
-      font-size: 13px;
-      margin-bottom: 10px;
-      color: #4e4e4e; }
-    .tl-card.watermark .mark {
-      background-color: transparent;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 85px;
-      padding: 0; }
-    .tl-card.watermark .content {
-      font-size: 13px;
-      opacity: .7; }
 
 .tl-btn {
   border: none;

@@ -14,27 +14,376 @@
 </head>
 
 <body><header>&nbsp;</header>
-<div class="content-container">
-	<h1>Platform Elements</h1>
-	<br>
-	<div class="row">
-		<div class="col-sm-6">
-			<!-- Fonts -->
-			<!-- Colors -->
-			<!-- Buttons -->
-			<!-- Cards -->
-			<div class="tl-card ">
-				<div class="tl-card-header">
-					Card header
-				</div>
-				<div class="tl-card-body">
-					Card body
-				</div>
-				<div class="tl-card-footer text-right">
-					<button id="" class="tl-btn transparent" data-action="">back</button>		<button id="" class="tl-btn secondaryed" data-action="">next</button>	</div>
-			</div>			<!-- Inputs -->
-		</div>
-	</div>
+<div class="tl-split-view">
+    <div class="tl-split-content">
+        <div class="tl-header-container">
+            <div class="tl-header-logo">
+                <img src="https://placehold.it/58x60">
+            </div>
+            <div class="tl-header-menu">
+            	<ul class="menu-items">
+            		<li><a>Quotation</a></li>
+            		<li><a>Accept</a></li>
+            		<li><a>Feedback</a></li>
+            	</ul>	
+            </div>            <div class="tl-header-right">
+            	<div class="header-title">Quotation 2016/04 - Logo design</div>
+            	<div class="header-subtitle bg-success"><em>paid</em></div>
+            	<div class="border"></div>
+            </div>        </div>
+        <div class="tl-split-body-wrapper">
+            <div>
+                <div class="tl-split-body">
+                    <!-- Invoice dropdown -->
+                    <div class="dropdown text-right">
+                        <button class="tl-drop text-drop" type="button" data-toggle="dropdown">Menu invoices
+                            <span class="fa fa-chevron-down text-primary"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">All invoices</a></li>
+                            <li><a href="#">Pending invoices</a></li>
+                            <li><a href="#">Paid invoices</a></li>
+                            <li><a href="#">Overdue invoices</a></li>
+                        </ul>
+                    </div>                    <!-- quotation detail -->
+                    <div class="tl-card quotation-detail">
+                    	<div class="tl-card-body tl-table">
+                    		<div>
+                    			<div class="title">Quotation 2016/04</div>
+                    			<div class="subtitle">Project: website</div>
+                    		</div>
+                    		<div>
+                    			<div class="subtitle">07/04/16</div>
+                    			<div class="subtitle text-bold text-redded"><em>Status: overdue</em></div>
+                    		</div>
+                    		<div>
+                    			<button id="" class="tl-btn transparent quotation" data-action="">view this offer</button>		</div>
+                    	</div>
+                    </div>                    <div class="tl-card quotation-detail">
+                    	<div class="tl-card-body tl-table">
+                    		<div>
+                    			<div class="title">Quotation 2016/04</div>
+                    			<div class="subtitle">Project: website</div>
+                    		</div>
+                    		<div>
+                    			<div class="subtitle">07/04/16</div>
+                    			<div class="subtitle text-bold text-pending"><em>Status: not paid</em></div>
+                    		</div>
+                    		<div>
+                    			<button id="" class="tl-btn transparent quotation" data-action="">view this offer</button>		</div>
+                    	</div>
+                    </div>                    <div class="tl-card quotation-detail">
+                    	<div class="tl-card-body tl-table">
+                    		<div>
+                    			<div class="title">Quotation 2016/04</div>
+                    			<div class="subtitle">Project: website</div>
+                    		</div>
+                    		<div>
+                    			<div class="subtitle">07/04/16</div>
+                    			<div class="subtitle text-bold text-success"><em>Status: paid</em></div>
+                    		</div>
+                    		<div>
+                    			<button id="" class="tl-btn transparent quotation" data-action="">view this offer</button>		</div>
+                    	</div>
+                    </div>                    <br/>
+                    <!-- form data -->
+                    <div class="tl-card tl-container">
+                        <div class="details-text">Have you found a typo, or changed address? You may now change your details yourself. But note that only future documents will use the new information. If you want something changed on current documents, use the feedback tab.</div>
+                        <form class="form-horizontal">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted">First name</div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="Rui" data-attr="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted">Last name</div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="Molefas" data-attr="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted">Email</div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="" data-attr="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted">Tel.</div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="" data-attr="name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted">Address</div>
+                                        <div class="col-xs-5">
+                                            <input type="text" class="form-control" placeholder="Rui" data-attr="name">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <input type="text" class="form-control" placeholder="Rui" data-attr="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted"></div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="" data-attr="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted"></div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="" data-attr="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div for="name" class="col-xs-5 control-label muted">VAT</div>
+                                        <div class="col-xs-7">
+                                            <input type="text" class="form-control" placeholder="" data-attr="name">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>                    <div class="tl-card tl-container">
+                    	<div class="tl-card-header">
+                    		Choose your payment method
+                    	</div>
+                    	<div class="tl-card-body whited">
+                    
+                    		<div class="tl-pay-methods">
+                    			<div class="tl-pay-method">
+                    				<div class="tl-radio text-secondary">
+                    	  				<input type="radio" name="payment" value="cc" id="cc" checked>
+                    				  	<label for="cc">
+                    				  		<img src="http://placehold.it/37x25">
+                    				  	</label>
+                    				</div>
+                    				<div class="tl-pay-description">
+                    					<div class="tl-pay-title">Credit Card</div>
+                    					<div class="subtitle">Veilig en online betalen via uw eigen bank</div>
+                    				</div>
+                    			</div>
+                    			<div class="tl-pay-method">
+                    				<div class="tl-radio text-secondary">
+                    	  				<input type="radio" name="payment" value="ideal" id="ideal">
+                    				  	<label for="ideal">
+                    				  		<img src="http://placehold.it/37x25">
+                    				  	</label>
+                    				</div>
+                    				<div class="tl-pay-description">
+                    					<div class="tl-pay-title">iDEAL</div>
+                    					<div class="subtitle">Veilig en online betalen via uw eigen bank</div>
+                    				</div>
+                    			</div>
+                    			<div class="tl-pay-method">
+                    				<div class="tl-radio text-secondary">
+                    	  				<input type="radio" name="payment" value="mister" id="mister">
+                    				  	<label for="mister">
+                    				  		<img src="http://placehold.it/37x25">
+                    				  	</label>
+                    				</div>
+                    				<div class="tl-pay-description">
+                    					<div class="tl-pay-title">Bancontact/Mister Cash</div>
+                    					<div class="subtitle">Veilig en online betalen via uw eigen bank</div>
+                    				</div>
+                    			</div>
+                    			<div class="tl-pay-method">
+                    				<div class="tl-radio text-secondary">
+                    	  				<input type="radio" name="payment" value="transfer" id="transfer">
+                    				  	<label for="transfer">
+                    				  		<img src="http://placehold.it/37x25">
+                    				  	</label>
+                    				</div>
+                    				<div class="tl-pay-description">
+                    					<div class="tl-pay-title">Bank transfer</div>
+                    					<div class="subtitle">Veilig en online betalen via uw eigen bank</div>
+                    				</div>
+                    			</div>
+                    			<div class="tl-pay-method">
+                    				<div class="tl-radio text-secondary">
+                    	  				<input type="radio" name="payment" value="sepa" id="sepa">
+                    				  	<label for="sepa">
+                    				  		<img src="http://placehold.it/37x25">
+                    				  	</label>
+                    				</div>
+                    				<div class="tl-pay-description">
+                    					<div class="tl-pay-title">SEPA Direct Debit</div>
+                    					<div class="subtitle">Veilig en online betalen via uw eigen bank</div>
+                    				</div>
+                    			</div>
+                    		</div>
+                    
+                    	</div>
+                    </div>                    <div class="tl-card tl-container">
+                    	<div class="tl-card-header">
+                    		Pay with credit card
+                    	</div>
+                    	<div class="tl-card-body">
+                    		<div class="subtitle">Use your credit card to make your Teamleader payments automaticly. You can stop this account any time you want.</div>
+                    
+                    		<form class="form-horizontal">
+                    		  	<div class="form-group">
+                    		    	<label for="kaartnummer" class="col-xs-3 control-label">Kaartnummer</label>
+                        			<div class="col-xs-9">
+                          				<input type="text" class="form-control" placeholder="">
+                        			</div>
+                    		  	</div>
+                    		  	<div class="form-group">
+                    		    	<label for="vervaldatum" class="col-xs-3 control-label">Vervaldatum</label>
+                        			<div class="col-xs-9">
+                          				<div class="calendar-input">
+                          					<input type="text" class="form-control month" placeholder="MM">
+                          					<div class="split">/</div>
+                          					<input type="text" class="form-control year" placeholder="YYYY">
+                          				</div>
+                          				<div class="pull-right text-right">
+                          					<div class="form-group">
+                          						<label for="cvc" class="col-xs-3 col-xs-offset-3 control-label">CVC</label>
+                    	      					<div class="col-xs-6">
+                    	      						<input type="text" class="form-control" placeholder="">
+                    	      					</div>
+                          					</div>
+                          				</div>
+                        			</div>
+                    		  	</div>
+                    		</form>
+                    
+                    	</div>
+                    </div>                    <div class="tl-card tl-container">
+                    	<div class="tl-card-header">
+                            Pay with bank transfer
+                    	</div>
+                    	<div class="tl-card-body">
+                    		<div class="subtitle">Please transfer the amount of <strong>$ 513</strong> to our bank account. Use the invoice number <strong>123-ABC</strong> as a reference. When we received the funds, we will mark this invoice as payed.</div>
+                    
+                    		<div class="tl-payment-details">
+                                <div class="tl-card-header">Payment details:</div>
+                                <div class="row">
+                                    <div class="col-xs-6 subtitle">
+                                        <ul>
+                                            <li>Meatdealer Inc.</li>
+                                            <li>Meatstreet 123</li>
+                                            <li>9000 Ghent</li>
+                                            <li>IBAN: BE032830103847</li>
+                                            <li>BIC: KREDBB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6 subtitle">
+                                        <ul>
+                                            <li>Amount: $ 513</li>
+                                            <li>Reference: 123-ABC</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                    	</div>
+                    </div>                    <!-- Notifications -->
+                    <div class="tl-card tl-container">
+                        <div class="modal-dialog notification-modal" role="document">
+                            <div class="modal-content mb25">
+                                <div class="modal-body success-modal">
+                                    <div class="content">
+                                        <!-- <strong>Success!</strong> Changes have been saved! -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        Changes have been saved!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    <div class="modal-dialog notification-modal" role="document">
+                            <div class="modal-content mb25">
+                                <div class="modal-body error-modal">
+                                    <div class="content">
+                                        <!-- <strong>Success!</strong> Changes have been saved! -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        You did something wrong!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    <div class="modal-dialog notification-modal" role="document">
+                            <div class="modal-content mb25">
+                                <div class="modal-body warning-modal">
+                                    <div class="content">
+                                        <!-- <strong>Success!</strong> Changes have been saved! -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        Don’t do that!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    <div class="modal-dialog notification-modal" role="document">
+                            <div class="modal-content ">
+                                <div class="modal-body info-modal">
+                                    <div class="content">
+                                        <!-- <strong>Success!</strong> Changes have been saved! -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        Did you know…
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div>                    <!-- feedback send -->
+                    <div class="">
+                    	<div class="">
+                    		<textarea placeholder="Add some feedback here please .."></textarea>	</div>
+                    	<div class="tl-card-footer text-right">
+                    		<button id="" class="tl-btn secondaryed" data-action="">save</button>	</div>
+                    </div>                    <br/>
+                    <!-- feedback messages -->
+                    <div class="tl-card full feedback">
+                    	<div class="tl-card-body">
+                    		<div class="user-avatar client">
+                    			<img src="http://placehold.it/100x100">
+                    		</div><div class="feedback-detail">
+                    			<div class="header">
+                    				<div class="title">Name goes here</div>
+                    				<div class="subtitle pull-right">02/12/2015 20:41</div>
+                    			</div>
+                    			<div class="subtitle">Beste klant,<br>
+                    				U moet zich hier geen zorgen over maken. Komt allemaal keihard in orde!
+                    			</div>
+                    		</div>		<div class="user-avatar enterprise">
+                    			<img src="http://placehold.it/100x100">
+                    		</div><div class="feedback-detail">
+                    			<div class="header">
+                    				<div class="title">Name goes here</div>
+                    				<div class="subtitle pull-right">02/12/2015 20:41</div>
+                    			</div>
+                    			<div class="subtitle">Beste klant,<br>
+                    				U moet zich hier geen zorgen over maken. Komt allemaal keihard in orde!
+                    			</div>
+                    		</div>		<div class="user-avatar client">
+                    			<img src="http://placehold.it/100x100">
+                    		</div><div class="feedback-detail">
+                    			<div class="header">
+                    				<div class="title">Name goes here</div>
+                    				<div class="subtitle pull-right">02/12/2015 20:41</div>
+                    			</div>
+                    			<div class="subtitle">Beste klant,<br>
+                    				U moet zich hier geen zorgen over maken. Komt allemaal keihard in orde!
+                    			</div>
+                    		</div>		<div class="user-avatar enterprise">
+                    			<img src="http://placehold.it/100x100">
+                    		</div><div class="feedback-detail">
+                    			<div class="header">
+                    				<div class="title">Name goes here</div>
+                    				<div class="subtitle pull-right">02/12/2015 20:41</div>
+                    			</div>
+                    			<div class="subtitle">Beste klant,<br>
+                    				U moet zich hier geen zorgen over maken. Komt allemaal keihard in orde!
+                    			</div>
+                    		</div>	</div>
+                    </div>                </div>
+                <div class="tl-split-footer">
+                    <div class="text-left pull-left">
+                        <button id="download-quotation" class="tl-btn tl-btn primaryed transparent" data-action="download">download</button>    </div>
+                    <div class="text-right pull-right">
+                        <button id="give-feedback" class="tl-btn tl-btn primaryed transparent" data-action="give-feedback">feedback</button>        <button id="accept-quotation" class="tl-btn tl-btn secondaryed" data-action="accept">accept this quotation</button>    </div>
+                </div>            </div>
+        </div>
+    </div>
+    <div class="tl-split-bg"></div>
 </div>
 
 

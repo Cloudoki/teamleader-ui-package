@@ -2,24 +2,40 @@
 {{> organisms/header}}
 
 <div class="tl-split-view">
-	<div class="tl-split-content">
-		<div class="tl-header text-primary">
-			<div class="tl-header-logo">
-				<img src="https://placehold.it/200x50">
-			</div>
-			{{> molecules/header-right title="Factuur 2016 / 23" subtitle="Status: not paid"}}
-		</div>
-		{{> organisms/invoice-header-menu}}
-
-		<div class="tl-split-body">
-			{{> molecules/full-width-card}}
-			{{> organisms/invoice-feedback-card}}
-			{{> organisms/invoice-pay-card}}
-			{{> organisms/invoice-pay2-card}}
-			{{> organisms/invoice-past}}
-		</div>
-	</div>
-	<div class="tl-split-bg"></div>
+    <div class="tl-split-content">
+        <div class="tl-header-container">
+            <div class="tl-header-logo">
+                <img src="https://placehold.it/58x60">
+            </div>
+            {{> organisms/cloudsign-header-menu}}
+            {{> molecules/header-right title="Quotation 2016/04 - Logo design" status-class="bg-pending" status-text="pending"}}
+        </div>
+        <div class="tl-split-body-wrapper">
+            <div>
+                <div class="tl-split-body">
+                    <!-- Invoice dropdown -->
+                    {{> molecules/invoice-dropdown text="invoices"}}
+                    <!-- quotation detail -->
+                    {{> organisms/quotation-card-detail status-class="text-redded" status-text="overdue"}}
+                    {{> organisms/quotation-card-detail status-class="text-pending" status-text="not paid"}}
+                    {{> organisms/quotation-card-detail status-class="text-success" status-text="paid"}}
+                    <br/>
+                    <!-- form data -->
+                    {{> organisms/invoice-form-group}}
+                    {{> organisms/invoice-pay-card}}
+                    {{> organisms/invoice-pay2-card}}
+                    {{> organisms/invoice-pay3-card}}
+                    <!-- feedback send -->
+                    {{> organisms/invoice-feedback-card}}
+                    <br/>
+                    <!-- feedback messages -->
+                    {{> organisms/invoice-feedback}}
+                </div>
+                {{> molecules/footer-menu}}
+            </div>
+        </div>
+    </div>
+    <div class="tl-split-bg"></div>
 </div>
 
 

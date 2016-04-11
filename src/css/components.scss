@@ -266,6 +266,25 @@
 	}
 }
 
+.tl-payment-details {
+  background: #f4f4f4;
+  margin-top: 40px;
+
+  .tl-card-header {
+	font-size: 14px !important;
+  }
+
+  ul {
+	margin: 0;
+	padding: 0px 0px 13px 19px;
+
+	li {
+	  list-style: none;
+	  padding: 1px 0px;
+	}
+  }
+}
+
 .tl-user-card {
 	position: relative;
 
@@ -381,7 +400,7 @@
 			}
 
 			&:last-child {
-				border-left: 1px solid $light-grey;
+				border-left: 1px solid #f4f4f4;
 				padding: 0 !important;
 				text-align: center;
 

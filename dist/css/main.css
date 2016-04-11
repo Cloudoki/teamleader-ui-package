@@ -733,16 +733,16 @@ label {
     .modal-dialog.notification-modal .modal-content .modal-body.error-modal {
       border-left-color: #e8423b; }
       .modal-dialog.notification-modal .modal-content .modal-body.error-modal:before {
-        content: '\f00c'; }
+        content: '\f00d'; }
     .modal-dialog.notification-modal .modal-content .modal-body.warning-modal {
       border-left-color: #f68d43; }
       .modal-dialog.notification-modal .modal-content .modal-body.warning-modal:before {
-        font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
-        content: '!';
-        font-size: 28px; }
+        margin: 2px 5px;
+        content: '\f12a'; }
     .modal-dialog.notification-modal .modal-content .modal-body.info-modal {
-      border-left-color: #5488c4;
-      font-size: 28px; }
+      border-left-color: #5488c4; }
       .modal-dialog.notification-modal .modal-content .modal-body.info-modal:before {
-        font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
-        content: 'i'; }
+        margin: 2px 5px;
+        content: '\f129'; }
+  .modal-dialog.notification-modal .modal-content.mb25 {
+    margin-bottom: 25px; }

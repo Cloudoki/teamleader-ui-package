@@ -60,9 +60,13 @@
 				}
 
 				&.success-modal { border-left-color: $success; &:before {content: '\f00c';}}
-				&.error-modal { border-left-color: $error; &:before {content: '\f00c';}}
-				&.warning-modal { border-left-color: $warning; &:before {font-family: $font-bold; content: '!'; font-size: 28px; }}
-				&.info-modal { border-left-color: $info; &:before {font-family: $font-bold; content: 'i'} font-size: 28px; }
+				&.error-modal { border-left-color: $error; &:before {content: '\f00d';}}
+				&.warning-modal { border-left-color: $warning; &:before { margin: 2px 5px; content: '\f12a'; }}
+				&.info-modal { border-left-color: $info; &:before { margin: 2px 5px; content: '\f129'}; }
+			}
+
+			&.mb25 {
+			  margin-bottom: 25px;
 			}
 		}
 	}

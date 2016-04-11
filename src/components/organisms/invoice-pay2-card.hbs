@@ -5,7 +5,36 @@
 	<div class="tl-card-body">
 		<div class="subtitle">Use your credit card to make your Teamleader payments automaticly. You can stop this account any time you want.</div>
 
-		<form class="form-horizontal">
+        <form class="form-horizontal">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="form-group">
+                        <label for="cardnumber" class="col-xs-5 control-label">Card number</label>
+                        <div class="col-xs-7">
+                            <input type="text" class="form-control" id="cardnumber" data-attr="cardnumber" placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvc" class="col-xs-5 control-label">CVC</label>
+                        <div class="col-xs-7">
+                            <input type="text" class="form-control" id="cvc" data-attr="cvc" placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="form-group">
+                        <label for="expiration" class="col-xs-6 control-label">Expiration date</label>
+                        <div class="col-xs-6 text-right">
+                            <div class="calendar-input">
+                                <input type="text" class="form-control month" placeholder="MM">
+                                <input type="text" class="form-control year" placeholder="YYYY">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+		<!--<form class="form-horizontal">
 		  	<div class="form-group">
 		    	<label for="kaartnummer" class="col-xs-3 control-label">Kaartnummer</label>
     			<div class="col-xs-9">
@@ -30,7 +59,7 @@
       				</div>
     			</div>
 		  	</div>
-		</form>
+		</form>-->
 
 	</div>
 </div>

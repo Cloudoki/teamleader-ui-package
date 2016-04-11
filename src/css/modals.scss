@@ -61,8 +61,8 @@
 
 				&.success-modal { border-left-color: $success; &:before {content: '\f00c';}}
 				&.error-modal { border-left-color: $error; &:before {content: '\f00c';}}
-				&.warning-modal { border-left-color: $warning; &:before {font-family: $font-regular; content: '!';}}
-				&.info-modal { border-left-color: $info; &:before {font-family: $font-regular; content: '!'}}
+				&.warning-modal { border-left-color: $warning; &:before {font-family: $font-bold; content: '!'; font-size: 28px; }}
+				&.info-modal { border-left-color: $info; &:before {font-family: $font-bold; content: 'i'} font-size: 28px; }
 			}
 		}
 	}

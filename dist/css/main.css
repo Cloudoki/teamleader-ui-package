@@ -250,6 +250,8 @@ iframe {
           .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body .tl-card.full {
             margin-right: -30px;
             margin-left: -30px; }
+          .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-body.whited {
+            background-color: #fff; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-notice + .tl-split-body {
           padding-top: 100px; }
         .tl-split-view .tl-split-content .tl-split-body-wrapper > div .tl-split-footer {
@@ -286,11 +288,15 @@ iframe {
     margin-left: 17px; }
     .tl-pay-methods .tl-pay-method > div.tl-pay-description {
       position: relative;
-      top: 8px; }
+      top: 12px; }
       .tl-pay-methods .tl-pay-method > div.tl-pay-description .tl-pay-title {
-        font-family: WhiteLabel, ProximaNovaSemibold, Helvetica, sans-serif;
-        font-size: 17px;
-        line-height: 1em; }
+        font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 1em;
+        margin-bottom: 3px; }
+      .tl-pay-methods .tl-pay-method > div.tl-pay-description .subtitle {
+        font-size: 13px;
+        opacity: .7; }
     .tl-pay-methods .tl-pay-method > div:first-child {
       margin-left: 0; }
 
@@ -731,10 +737,12 @@ label {
     .modal-dialog.notification-modal .modal-content .modal-body.warning-modal {
       border-left-color: #f68d43; }
       .modal-dialog.notification-modal .modal-content .modal-body.warning-modal:before {
-        font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
-        content: '!'; }
+        font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
+        content: '!';
+        font-size: 28px; }
     .modal-dialog.notification-modal .modal-content .modal-body.info-modal {
-      border-left-color: #5488c4; }
+      border-left-color: #5488c4;
+      font-size: 28px; }
       .modal-dialog.notification-modal .modal-content .modal-body.info-modal:before {
-        font-family: WhiteLabel, ProximaNovaRegular, Helvetica, sans-serif;
-        content: '!'; }
+        font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
+        content: 'i'; }

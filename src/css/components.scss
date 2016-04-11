@@ -350,27 +350,35 @@
 		min-height: 550px;
 	}
 
-	// .tl-quotation-footer {
-	// 	position: absolute;
-	// 	bottom: 25px;
-	// 	margin: 0 -10px;
-	// 	width: 100%;
-
-	// 	.tl-btn {
-	// 		margin-right: 15px;
-
-	// 		&:last-child {
-	// 			margin-right: 0;
-	// 		}
-	// 	}
-	// }
-
 	&.full-height {
 		height: 100%;
 		iframe {
 			height: 100%;
 		}
 	}
+}
+
+.tl-not-found {
+
+  margin: 30px 0px;
+
+  .icon {
+	background: url(../images/emptystatefile.svg) no-repeat center;
+	height: 100px;
+  }
+
+  .title {
+	font-family: $font-bold;
+	line-height: 1.4em;
+	color: #4e4e4e;
+	font-size: 14px;
+  }
+
+  .subtitle {
+	font-size: 13px;
+	opacity: .7;
+	padding: 5px;
+  }
 }
 
 .quotation-detail {

@@ -15,6 +15,8 @@
                 <div class="tl-split-body">
                     <!-- Invoice dropdown -->
                     {{> molecules/invoice-dropdown text="invoices"}}
+
+                    {{> organisms/not-found title="Looks like there are no invoices" subtitle="Try changing the filter in the upper right corner!"}}
                     <!-- quotation detail -->
                     {{> organisms/quotation-card-detail status-class="text-redded" status-text="overdue"}}
                     {{> organisms/quotation-card-detail status-class="text-pending" status-text="not paid"}}

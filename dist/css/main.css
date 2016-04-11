@@ -95,16 +95,16 @@ iframe {
   color: #fff; }
 
 .text-primary {
-  color: #021d5b; }
+  color: #00aca9; }
 
 .text-second\ary {
-  color: #9ad100; }
+  color: #2b3b4c; }
 
 .primaryed {
-  background-color: #021d5b; }
+  background-color: #00aca9; }
 
 .secondaryed {
-  background-color: #9ad100; }
+  background-color: #2b3b4c; }
 
 .text-red {
   color: #e8423b; }
@@ -460,7 +460,7 @@ iframe {
   .tl-card .tl-card-header {
     font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
     line-height: 1.4em;
-    color: #021d5b;
+    color: #00aca9;
     font-size: 17px; }
   .tl-card .tl-card-body {
     padding: 19px; }

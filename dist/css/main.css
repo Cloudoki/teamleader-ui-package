@@ -418,6 +418,32 @@ iframe {
   background: #fff;
   padding: 30px; }
 
+#accept .signature-wrapper {
+  display: table;
+  width: 100%; }
+  #accept .signature-wrapper .signature {
+    height: 127px;
+    border: 1px solid #d8d8d8;
+    font-size: 45px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%; }
+
+#accept .accept-action {
+  margin-top: 15px;
+  font-size: 12px;
+  opacity: .5;
+  cursor: pointer; }
+  #accept .accept-action.cancel, #accept .accept-action.clear {
+    display: none; }
+
+#accept canvas.accept-modal {
+  width: 100%;
+  border: 1px solid #f4f4f4;
+  cursor: pointer;
+  display: none; }
+
 .tl-card {
   background-color: #fff;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);

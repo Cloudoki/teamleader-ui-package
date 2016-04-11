@@ -486,3 +486,42 @@
   background: #fff;
   padding: 30px;
 }
+
+#accept {
+
+  .signature-wrapper {
+	display: table;
+	width: 100%;
+
+	.signature {
+	  height: 127px;
+	  border: 1px solid #d8d8d8;
+	  font-size: 45px;
+	  text-align: center;
+	  display: table-cell;
+	  vertical-align: middle;
+	  width: 100%;
+	}
+  }
+
+  .accept-action {
+	margin-top: 15px;
+	font-size: 12px;
+	opacity: .5;
+	cursor: pointer;
+
+	&.cancel,
+	&.clear {
+	  display: none;
+	}
+  }
+
+  canvas {
+	&.accept-modal {
+	  width: 100%;
+	  border: 1px solid #f4f4f4;
+	  cursor: pointer;
+	  display: none;
+	}
+  }
+}

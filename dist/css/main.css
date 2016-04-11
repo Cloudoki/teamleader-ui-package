@@ -95,13 +95,13 @@ iframe {
   color: #fff; }
 
 .text-primary {
-  color: #00aca9; }
+  color: #2b3b4c; }
 
 .text-second\ary {
   color: #2b3b4c; }
 
 .primaryed {
-  background-color: #00aca9; }
+  background-color: #2b3b4c; }
 
 .secondaryed {
   background-color: #2b3b4c; }
@@ -460,6 +460,7 @@ iframe {
   .tl-card .tl-card-header {
     font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
     line-height: 1.4em;
+    color: #4e4e4e;
     font-size: 17px; }
   .tl-card .tl-card-body {
     padding: 19px; }

@@ -626,7 +626,7 @@ label {
     .tl-radio input[type=radio]:checked + label:after {
       position: absolute;
       left: 1px;
-      bottom: 4px;
+      bottom: 3px;
       content: "\2022";
       font-size: 66px;
       text-align: center;

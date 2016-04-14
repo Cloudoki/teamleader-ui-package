@@ -64,10 +64,18 @@
 
 					&.header-subtitle {
 						bottom: 0px;
-					    background: #f68d43;
+					    background: $info;
 					    color: #fff;
 					    padding: 5px 20px;
 					    margin-left: 10px;
+
+					    &.accepted {
+					    	background-color: $success;
+					    }
+
+					    &.pending {
+					    	background-color: $warning;
+					    }
 					}
 				}
 

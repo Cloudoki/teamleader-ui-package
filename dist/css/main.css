@@ -170,10 +170,14 @@ iframe {
             font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif; }
           .tl-split-view .tl-split-content .tl-header-container .tl-header-right > div.header-subtitle {
             bottom: 0px;
-            background: #f68d43;
+            background: #5488c4;
             color: #fff;
             padding: 5px 20px;
             margin-left: 10px; }
+            .tl-split-view .tl-split-content .tl-header-container .tl-header-right > div.header-subtitle.accepted {
+              background-color: #9ad100; }
+            .tl-split-view .tl-split-content .tl-header-container .tl-header-right > div.header-subtitle.pending {
+              background-color: #f68d43; }
         .tl-split-view .tl-split-content .tl-header-container .tl-header-right .border {
           position: absolute;
           width: 0;

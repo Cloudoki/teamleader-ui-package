@@ -65,20 +65,50 @@ iframe {
 	color: $success;
 }
 
+.text-error {
+	color: $error;
+}
+
+.text-warning {
+	color: $warning;
+}
+
+.text-info {
+	color: $info;
+}
+
 .text-pending {
   color: $orange;
 }
 
 .bg-redded {
   background-color: $red !important;
+  color: $white;
 }
 
 .bg-success {
   background-color: $success !important;
+  color: $white;
+}
+
+.bg-warning {
+  background-color: $warning !important;
+  color: $white;
+}
+
+.bg-error {
+  background-color: $error !important;
+  color: $white;
+}
+
+.bg-info {
+  background-color: $info !important;
+  color: $white;
 }
 
 .bg-pending {
   background-color: $orange !important;
+  color: $white;
 }
 
 .text-error {
@@ -103,7 +133,7 @@ iframe {
 	color: $product-primary;
 }
 
-.text-second\ary {
+.text-secondary {
 	color: $product-secondary;
 }
 

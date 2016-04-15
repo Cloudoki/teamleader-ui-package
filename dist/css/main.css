@@ -12,6 +12,10 @@
   font-family: "ProximaNovaBold";
   src: url("../fonts/ProximaNovaBold.otf") format("opentype"); }
 
+h1 {
+  font-size: 24px;
+  font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif; }
+
 h2 {
   font-size: 17px;
   font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif; }
@@ -68,17 +72,41 @@ iframe {
 .text-success {
   color: #9ad100; }
 
+.text-error {
+  color: #e8423b; }
+
+.text-warning {
+  color: #f68d43; }
+
+.text-info {
+  color: #5488c4; }
+
 .text-pending {
   color: #f68d43; }
 
 .bg-redded {
-  background-color: #e8423b !important; }
+  background-color: #e8423b !important;
+  color: #fff; }
 
 .bg-success {
-  background-color: #9ad100 !important; }
+  background-color: #9ad100 !important;
+  color: #fff; }
+
+.bg-warning {
+  background-color: #f68d43 !important;
+  color: #fff; }
+
+.bg-error {
+  background-color: #e8423b !important;
+  color: #fff; }
+
+.bg-info {
+  background-color: #5488c4 !important;
+  color: #fff; }
 
 .bg-pending {
-  background-color: #f68d43 !important; }
+  background-color: #f68d43 !important;
+  color: #fff; }
 
 .text-error {
   color: #e8423b; }
@@ -97,7 +125,7 @@ iframe {
 .text-primary {
   color: #2b3b4c; }
 
-.text-second\ary {
+.text-secondary {
   color: #2b3b4c; }
 
 .primaryed {

@@ -60,7 +60,8 @@ table {
   width: 100%; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  max-height: 100%; }
 
 iframe {
   width: 100%;
@@ -136,12 +137,6 @@ iframe {
 
 .text-red {
   color: #e8423b; }
-
-.user-avatar {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  overflow: hidden; }
 
 .details-text {
   font-size: 13px;
@@ -348,31 +343,22 @@ iframe {
       list-style: none;
       padding: 1px 0px; }
 
-.tl-user-card {
-  position: relative; }
-  .tl-user-card .user-data {
-    padding-left: 64px;
-    padding-top: 3px; }
-    .tl-user-card .user-data .user-name {
-      letter-spacing: 0.6px; }
-  .tl-user-card .user-avatar {
-    position: absolute;
-    left: 0;
-    top: 0; }
-  .tl-user-card.mini .user-data {
-    padding-left: 45px;
-    font-size: 13px; }
-    .tl-user-card.mini .user-data .user-name {
-      line-height: 24px; }
-  .tl-user-card.mini .user-avatar {
-    width: 28px;
-    height: 28px; }
-  .tl-user-card.align-right .user-data {
-    padding-left: 0;
-    padding-right: 64px; }
-  .tl-user-card.align-right .user-avatar {
-    left: auto;
-    right: 0; }
+.user-avatar img {
+  border-radius: 50%;
+  width: 57px;
+  height: 57px; }
+
+.tl-user-info {
+  text-align: center; }
+  .tl-user-info .user-avatar {
+    margin-bottom: 7px; }
+  .tl-user-info .user-name {
+    font-size: 13px;
+    font-family: WhiteLabel, ProximaNovaBold, Helvetica, sans-serif;
+    color: #2b3b4c; }
+  .tl-user-info .user-sub {
+    font-size: 11px;
+    opacity: .7; }
 
 .tl-quotation {
   position: relative; }
